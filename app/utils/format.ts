@@ -1,0 +1,55 @@
+// =============================================================================
+// Framework-agnostic formatting helpers. Pure functions — no Vue/Nuxt imports —
+// so they are trivially testable and reusable across services and components.
+// =============================================================================
+
+/**
+ * Format a Rupiah amount for display. Large luxury prices read best in a
+ * compact "Rp 4,85 M" (miliar) / "Rp 850 jt" (juta) form; a `full` option
+ * returns the exact grouped figure for detail views.
+ */
+export function formatIdr(
+  amount: number,
+  opts: { compact?: boolean; locale?: string } = {},
+): string {
+  const { compact = true, locale = 'id-ID' } = opts
+  if (!Number.isFinite(amount)) return '—'
+
+  if (compact) {
+    if (amount >= 1_000_000_000) {
+      const value = amount / 1_000_000_000
+      const label = locale.startsWith('id') ? ' M' : ' B'
+      return `Rp ${trimNumber(value, locale)}${label}`
+    }
+    if (amount >= 1_000_000) {
+      const value = amount / 1_000_000
+      const label = locale.startsWith('id') ? ' jt' : ' M'
+      return `Rp ${trimNumber(value, locale)}${label}`
+    }
+  }
+
+  return `Rp ${new Intl.NumberFormat(locale).format(Math.round(amount))}`
+}
+
+/** Format a value with up to 2 decimals, dropping trailing zeros. */
+function trimNumber(value: number, locale: string): string {
+  return new Intl.NumberFormat(locale, {
+    maximumFractionDigits: 2,
+  }).format(value)
+}
+
+/** Format an integer with locale grouping (e.g. odometer). */
+export function formatNumber(value: number, locale = 'id-ID'): string {
+  if (!Number.isFinite(value)) return '—'
+  return new Intl.NumberFormat(locale).format(value)
+}
+
+/** Slugify a make + model into a stable url fragment. */
+export function slugify(input: string): string {
+  return input
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[^\w\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+}

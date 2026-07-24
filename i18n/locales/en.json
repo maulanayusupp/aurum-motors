@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "tagline": "Curated Luxury Cars",
+    "home": {
+      "title": "Curated Luxury Cars, New & Pre-Owned",
+      "description": "AURUM is a curated showroom for new and pre-owned luxury cars. Every unit is hand-picked, inspected, and transparently listed. Talk to us directly on WhatsApp."
+    },
+    "inventory": {
+      "title": "Inventory",
+      "description": "Browse our curated collection of luxury cars — coupés, sedans, SUVs and sports cars. Filter by condition, body type and fuel."
+    },
+    "about": {
+      "title": "About AURUM",
+      "description": "Who we are and how we work: a curated, transparent approach to buying luxury cars."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Reach the AURUM team via WhatsApp, phone or email. We reply quickly and personally."
+    },
+    "compliance": {
+      "title": "Trust & Compliance",
+      "description": "How we protect buyers: inspection, complete documents, data protection and full transparency."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How AURUM collects, uses and protects your personal data."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "The terms that govern the use of the AURUM website."
+    }
+  },
+
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "home": "AURUM home",
+    "primaryNav": "Primary navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+
+  "nav": {
+    "inventory": "Inventory",
+    "about": "About",
+    "compliance": "Trust",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "enquire": "Enquire"
+  },
+
+  "condition": {
+    "new": "New",
+    "used": "Pre-owned"
+  },
+  "body": {
+    "coupe": "Coupé",
+    "sedan": "Sedan",
+    "suv": "SUV",
+    "sport": "Sports",
+    "hatchback": "Hatchback",
+    "convertible": "Convertible"
+  },
+  "fuel": {
+    "petrol": "Petrol",
+    "diesel": "Diesel",
+    "hybrid": "Hybrid",
+    "electric": "Electric"
+  },
+  "transmission": {
+    "automatic": "Automatic",
+    "manual": "Manual"
+  },
+  "colors": {
+    "graphiteGrey": "Graphite Grey",
+    "lavaOrange": "Lava Orange",
+    "arancioBorealis": "Arancio Borealis",
+    "alpineWhite": "Alpine White",
+    "obsidianBlack": "Obsidian Black",
+    "racingYellow": "Racing Yellow",
+    "pearlWhite": "Pearl White",
+    "marinaBlue": "Marina Bay Blue",
+    "daytonaGrey": "Daytona Grey",
+    "santoriniBlack": "Santorini Black",
+    "rallyRed": "Rally Red"
+  },
+
+  "f": {
+    "amgPerformance": "AMG Performance package",
+    "carbonTrim": "Carbon-fibre interior trim",
+    "burmesterAudio": "Burmester surround sound",
+    "ceramicBrakes": "Ceramic composite brakes",
+    "sportChrono": "Sport Chrono package",
+    "pasm": "Active suspension (PASM)",
+    "sportExhaust": "Sports exhaust system",
+    "matrixLed": "Matrix LED headlights",
+    "v10Engine": "Naturally-aspirated V10",
+    "awd": "All-wheel drive",
+    "ldvi": "Dynamic vehicle integration (LDVI)",
+    "forgedWheels": "Forged alloy wheels",
+    "mxDrive": "M xDrive all-wheel drive",
+    "carbonRoof": "Carbon-fibre roof",
+    "harmanKardon": "Harman Kardon audio",
+    "laserLights": "BMW Laserlight",
+    "rearLounge": "Executive rear lounge seats",
+    "mbux": "MBUX Hyperscreen",
+    "airmatic": "AIRMATIC air suspension",
+    "burmester4d": "Burmester 4D sound",
+    "flatSix": "Flat-six boxer engine",
+    "bose": "BOSE surround sound",
+    "sportSeatsPlus": "18-way Sports Seats Plus",
+    "v8Biturbo": "4.0L V8 biturbo",
+    "threeDiffLocks": "Three differential locks",
+    "nappaLeather": "Nappa leather interior",
+    "adaptiveDamping": "Adaptive damping",
+    "triMotor": "Tri-motor all-wheel drive",
+    "longRange": "Long-range battery",
+    "autopilot": "Enhanced Autopilot",
+    "glassRoof": "Panoramic glass roof",
+    "merinoLeather": "Merino leather interior",
+    "headUpDisplay": "Head-up display",
+    "quattro": "quattro all-wheel drive",
+    "bangOlufsen": "Bang & Olufsen 3D audio",
+    "airSuspension": "Adaptive air suspension",
+    "terrainResponse": "Terrain Response 2",
+    "meridianAudio": "Meridian signature sound",
+    "executiveSeats": "Executive Class rear seats",
+    "cabinAirPurification": "Cabin air purification Pro",
+    "v8Ls": "6.2L V8 LS engine",
+    "magneticRide": "Magnetic Ride Control",
+    "brembo": "Brembo performance brakes",
+    "dualExhaust": "Dual-mode exhaust"
+  },
+
+  "cars": {
+    "mercedes-amg-gt-2023": {
+      "tagline": "A hand-built grand tourer with the soul of a racer.",
+      "description": "This AMG GT Coupé pairs a front-mid V8 with a track-honed chassis for a driving experience that is as composed on the boulevard as it is thrilling on an open road. Finished in Graphite Grey with a carbon-trimmed cabin and Burmester sound, it has covered minimal distance and presents as new."
+    },
+    "porsche-911-carrera-2024": {
+      "tagline": "The definitive sports car, now in its most refined form.",
+      "description": "A brand-new 911 Carrera S in striking Lava Orange. Sport Chrono, active PASM suspension and a sports exhaust make every drive an occasion, while everyday usability remains unmistakably 911. Delivered with full principal documentation."
+    },
+    "lamborghini-huracan-2022": {
+      "tagline": "A naturally-aspirated V10 that redefines occasion.",
+      "description": "The Huracán EVO delivers one of the last great naturally-aspirated V10s, paired with all-wheel drive and Lamborghini's dynamic integration system. Presented in Arancio Borealis with forged wheels and a documented, low-mileage history."
+    },
+    "bmw-m4-competition-2023": {
+      "tagline": "Precision-engineered performance in Alpine White.",
+      "description": "The M4 Competition blends a 3.0L twin-turbo straight-six with M xDrive traction and a carbon roof. A focused yet usable coupé with a full service record and Harman Kardon audio."
+    },
+    "mercedes-s-class-2024": {
+      "tagline": "The benchmark for effortless luxury.",
+      "description": "A brand-new S 500 L with the executive rear lounge, MBUX Hyperscreen and AIRMATIC air suspension. Serene, technologically advanced and beautifully finished in Obsidian Black."
+    },
+    "porsche-718-cayman-2023": {
+      "tagline": "Mid-engine balance in its purest form.",
+      "description": "A 718 Cayman GTS with the flat-six engine and a genuine manual gearbox — a driver's car in the truest sense. Racing Yellow over black, with Sport Chrono and BOSE audio."
+    },
+    "mercedes-g-class-2023": {
+      "tagline": "An icon that answers to no one.",
+      "description": "The G 63 AMG unites a hand-built biturbo V8 with genuine off-road capability and unmistakable presence. Finished in Obsidian Black with a Nappa leather cabin and adaptive damping."
+    },
+    "tesla-model-s-plaid-2024": {
+      "tagline": "Tri-motor performance, zero emissions.",
+      "description": "A brand-new Model S Plaid with tri-motor all-wheel drive, long-range battery and a panoramic glass roof. Instant, silent acceleration paired with genuine day-to-day range."
+    },
+    "bmw-m5-2022": {
+      "tagline": "A super-saloon that does everything.",
+      "description": "The M5 Competition offers 617 hp, M xDrive and a Merino leather cabin — supercar pace wrapped in a five-seat saloon. Well-maintained with a documented history and head-up display."
+    },
+    "audi-rs7-sportback-2023": {
+      "tagline": "Grand touring with understated menace.",
+      "description": "The RS7 Sportback combines a mild-hybrid V8, quattro grip and Bang & Olufsen 3D audio in a fastback silhouette. Daytona Grey with adaptive air suspension and Matrix LED lighting."
+    },
+    "range-rover-autobiography-2024": {
+      "tagline": "The last word in luxury travel.",
+      "description": "A brand-new Range Rover Autobiography with Executive Class rear seating, Meridian audio and cabin air purification. Commanding, refined and endlessly capable in Santorini Black."
+    },
+    "chevrolet-camaro-ss-2021": {
+      "tagline": "American muscle, honestly priced.",
+      "description": "A Camaro SS with the 6.2L V8, a manual gearbox and Magnetic Ride Control. Rally Red with Brembo brakes and a dual-mode exhaust — a characterful modern classic with a clear history."
+    }
+  },
+
+  "car": {
+    "brandNew": "Brand new",
+    "viewDetail": "View details",
+    "askWhatsApp": "Ask on WhatsApp",
+    "backToInventory": "Back to inventory",
+    "overview": "Overview",
+    "specifications": "Specifications",
+    "highlights": "Highlights",
+    "relatedEyebrow": "You may also like",
+    "relatedTitle": "Related cars",
+    "priceLabel": "Price",
+    "priceNote": "Price is indicative and subject to final confirmation. Financing and trade-in can be arranged.",
+    "inquiryCta": "Enquire on WhatsApp",
+    "callCta": "Call the showroom",
+    "salesConsultant": "Sales Consultant",
+    "assurance": {
+      "inspected": "Multi-point inspected",
+      "documents": "Complete documents",
+      "testDrive": "Test drive on request"
+    },
+    "specs": {
+      "year": "Year",
+      "mileage": "Mileage",
+      "power": "Power",
+      "acceleration": "0–100 km/h",
+      "fuel": "Fuel",
+      "transmission": "Transmission",
+      "seats": "Seats",
+      "color": "Colour"
+    }
+  },
+
+  "whatsapp": {
+    "generic": "Hello AURUM, I'd like to know more about the cars you have available.",
+    "carInquiry": "Hello AURUM, I'm interested in the %car% (%price%). Is it still available? %url%",
+    "fabLabel": "Chat on WhatsApp",
+    "fabText": "Chat with us"
+  },
+
+  "home": {
+    "hero": {
+      "eyebrow": "New & Pre-Owned Luxury",
+      "titleLine1": "Drive something",
+      "titleAccent": "extraordinary",
+      "titleLine2": "— chosen with care.",
+      "lead": "A curated showroom of luxury cars, each one hand-picked, inspected and transparently listed. No pressure, no guesswork — just an honest path to your next car.",
+      "ctaPrimary": "Explore inventory",
+      "ctaSecondary": "Chat on WhatsApp",
+      "spotlight": "In the spotlight",
+      "stat": {
+        "units": "Curated units",
+        "brands": "Marques represented",
+        "documents": "Documents verified"
+      }
+    },
+    "marquee": {
+      "label": "Marques we carry"
+    },
+    "featured": {
+      "eyebrow": "Featured",
+      "title": "Hand-picked this month",
+      "lead": "A selection from our current inventory — the cars we're most excited to hand over.",
+      "viewAll": "View all"
+    },
+    "value": {
+      "eyebrow": "Why AURUM",
+      "title": "A better way to buy a luxury car",
+      "lead": "We built AURUM around the things buyers actually want: honesty, quality and a real human on the other end.",
+      "inspection": {
+        "title": "Independently inspected",
+        "body": "Every car goes through a multi-point mechanical and cosmetic check before it reaches this page."
+      },
+      "curated": {
+        "title": "Genuinely curated",
+        "body": "We list only cars we'd be happy to own ourselves — not every car we're offered makes the cut."
+      },
+      "transparent": {
+        "title": "Transparent listings",
+        "body": "Clear specs, honest condition notes and complete documents. What you see is what you get."
+      },
+      "concierge": {
+        "title": "Personal concierge",
+        "body": "One point of contact on WhatsApp, from first question to final handover — and beyond."
+      }
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "From first look to first drive",
+      "lead": "Four simple steps. No dealership pressure, no hidden surprises.",
+      "browse": {
+        "title": "Browse",
+        "body": "Explore the inventory and shortlist the cars that speak to you."
+      },
+      "consult": {
+        "title": "Consult",
+        "body": "Message us on WhatsApp with any question — we reply personally and quickly."
+      },
+      "inspect": {
+        "title": "Inspect",
+        "body": "Review the inspection notes and documents, and book a test drive when you're ready."
+      },
+      "drive": {
+        "title": "Drive",
+        "body": "We handle paperwork and handover so you can simply enjoy the car."
+      }
+    },
+    "testimonials": {
+      "eyebrow": "In their words",
+      "title": "Buyers who found the one",
+      "items": {
+        "t1": {
+          "quote": "The condition notes were spot-on and the whole process happened over WhatsApp in a single afternoon. Refreshingly honest.",
+          "name": "Andreas W.",
+          "role": "911 Carrera buyer"
+        },
+        "t2": {
+          "quote": "No pressure, no games. They answered every question and the documents were complete on day one.",
+          "name": "Sarah L.",
+          "role": "Range Rover buyer"
+        },
+        "t3": {
+          "quote": "I've bought many cars over the years — this was the most transparent experience by far.",
+          "name": "Dimas P.",
+          "role": "G-Class buyer"
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Ready when you are",
+      "title": "Let's find your next car",
+      "lead": "Tell us what you're looking for and we'll point you to the right unit — or source it for you.",
+      "primary": "Chat on WhatsApp",
+      "secondary": "Contact the team"
+    }
+  },
+
+  "inventory": {
+    "eyebrow": "The collection",
+    "title": "Inventory",
+    "lead": "Browse our curated luxury cars. Filter by condition, body type and fuel to find the right match.",
+    "resultsCount": "{count} cars",
+    "filters": {
+      "title": "Filters",
+      "condition": "Condition",
+      "body": "Body type",
+      "fuel": "Fuel",
+      "sortBy": "Sort by",
+      "reset": "Reset",
+      "allConditions": "All conditions",
+      "allBodies": "All body types",
+      "allFuels": "All fuels",
+      "searchPlaceholder": "Search make or model…"
+    },
+    "sort": {
+      "featured": "Featured",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low",
+      "yearDesc": "Year: newest"
+    },
+    "empty": {
+      "title": "No cars match your filters",
+      "body": "Try widening your search, or reset the filters to see the full collection."
+    }
+  },
+
+  "about": {
+    "eyebrow": "About us",
+    "title": "Luxury cars, chosen the way we'd choose our own",
+    "lead": "AURUM is a curated showroom built on a simple idea: buying a beautiful car should feel as good as owning one.",
+    "imageAlt": "A luxury car in a refined showroom setting",
+    "story": {
+      "title": "Our story",
+      "p1": "AURUM began with a frustration shared by every enthusiast — that buying a special car is too often stressful, opaque and full of pressure. We wanted to do the opposite.",
+      "p2": "So we built a showroom around curation and honesty. We hand-pick each car, inspect it independently, document it fully, and list it exactly as it is. If a car isn't good enough for us, it isn't good enough for you.",
+      "p3": "Everything runs through one personal point of contact on WhatsApp, so you always know who you're talking to. No queues, no scripts — just straight answers.",
+      "cta": "Talk to us"
+    },
+    "principles": {
+      "eyebrow": "What we stand for",
+      "title": "Principles we won't compromise on"
+    }
+  },
+
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "We'd love to hear from you",
+    "lead": "Have a question about a car, or looking for something specific? Reach us on WhatsApp for the fastest reply, or send a message below.",
+    "formTitle": "Send us a message",
+    "formLead": "Fill in the form and we'll get back to you — or continue straight to WhatsApp.",
+    "channels": {
+      "whatsapp": "WhatsApp (fastest)",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Showroom",
+      "hours": "Opening hours"
+    },
+    "info": {
+      "addressValue": "Jakarta, Indonesia (by appointment)",
+      "hoursValue": "Mon–Sat, 09:00–18:00 WIB"
+    },
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "phone": "Phone (optional)",
+      "phonePlaceholder": "+62…",
+      "email": "Email",
+      "emailPlaceholder": "you{'@'}email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell us which car you're interested in, or what you're looking for…",
+      "submit": "Send message",
+      "orWhatsApp": "Send via WhatsApp",
+      "privacyHint": "By sending, you agree to our privacy policy. We only use your details to reply to your enquiry.",
+      "successTitle": "Message ready",
+      "successBody": "Thank you. For an instant reply, continue the conversation on WhatsApp — we usually respond within minutes during opening hours.",
+      "continueWhatsApp": "Continue on WhatsApp",
+      "sendAnother": "Send another",
+      "whatsappTemplate": "Hello AURUM, my name is {name}. {message}"
+    },
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageShort": "Please enter a message of at least 10 characters.",
+      "invalid": "Please check the form and try again."
+    }
+  },
+
+  "compliance": {
+    "eyebrow": "Trust & compliance",
+    "title": "How we protect you",
+    "lead": "We can't promise what we can't deliver — so here are the concrete, honest practices behind every AURUM listing.",
+    "items": {
+      "inspection": {
+        "title": "Independent inspection",
+        "body": "Each car receives a multi-point mechanical and cosmetic inspection. Any known faults are disclosed in the listing."
+      },
+      "documents": {
+        "title": "Complete documents",
+        "body": "We verify ownership and vehicle documents before listing, and hand over a complete set at purchase."
+      },
+      "privacy": {
+        "title": "Data protection",
+        "body": "We collect only what we need to answer your enquiry and never sell your data. See our privacy policy for details."
+      },
+      "transparency": {
+        "title": "Honest listings",
+        "body": "Specifications, mileage and condition are presented as accurately as we can. If something changes, we update it."
+      },
+      "payment": {
+        "title": "Secure transactions",
+        "body": "Payments are made through traceable, official channels. We never ask for cash to informal accounts."
+      },
+      "warranty": {
+        "title": "Clear after-sale terms",
+        "body": "Any warranty or after-sale support offered on a specific car is stated in writing before you commit."
+      }
+    },
+    "disclaimer": {
+      "title": "About this website",
+      "body": "AURUM is a demonstration showroom. The brand, the listed cars, prices, mileage and stock shown here are illustrative sample data for showcasing the website, not a live commercial offer. No purchase can be completed through this site — enquiries are handled personally via WhatsApp."
+    },
+    "help": "Have a question about how we work?",
+    "helpCta": "Ask us on WhatsApp"
+  },
+
+  "legal": {
+    "lastUpdated": "Last updated"
+  },
+
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "lead": "This policy explains what personal data we collect, why, and how we protect it.",
+    "updated": "24 July 2026",
+    "sections": [
+      {
+        "heading": "Who we are",
+        "paragraphs": [
+          "AURUM is a demonstration showroom website. This policy describes how personal data would be handled when you contact us through the website or WhatsApp.",
+          "Because AURUM is a placeholder project, no live commercial data processing takes place beyond replying to messages you choose to send."
+        ]
+      },
+      {
+        "heading": "Data we collect",
+        "paragraphs": [
+          "When you submit the contact form we collect the name, email and any phone number and message you provide.",
+          "When you contact us on WhatsApp, your message and phone number are visible to us through WhatsApp, subject to WhatsApp's own privacy terms.",
+          "We do not use advertising trackers. A cookie is used only to remember your language preference."
+        ]
+      },
+      {
+        "heading": "How we use your data",
+        "paragraphs": [
+          "We use the details you provide solely to respond to your enquiry and to arrange any viewing or purchase you request.",
+          "We do not sell or rent your personal data to third parties."
+        ]
+      },
+      {
+        "heading": "Data retention",
+        "paragraphs": [
+          "We keep enquiry details only for as long as needed to assist you, after which they are deleted on request."
+        ]
+      },
+      {
+        "heading": "Your rights",
+        "paragraphs": [
+          "You may request access to, correction of, or deletion of your personal data at any time by contacting us using the details on the contact page."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "For any privacy question, contact us via the channels listed on the contact page."
+        ]
+      }
+    ]
+  },
+
+  "terms": {
+    "eyebrow": "Legal",
+    "title": "Terms of Use",
+    "lead": "By using this website you agree to the following terms.",
+    "updated": "24 July 2026",
+    "sections": [
+      {
+        "heading": "Nature of this website",
+        "paragraphs": [
+          "AURUM is a demonstration showroom. The brand name, vehicles, prices, mileage and availability shown are illustrative sample data used to showcase the website's design and features.",
+          "Nothing on this website constitutes a binding offer, contract, or professional advice."
+        ]
+      },
+      {
+        "heading": "No online transactions",
+        "paragraphs": [
+          "No sale or payment can be completed through this website. All enquiries are handled personally, primarily via WhatsApp, and any real transaction would be governed by a separate written agreement."
+        ]
+      },
+      {
+        "heading": "Accuracy of information",
+        "paragraphs": [
+          "We aim to keep information accurate but make no warranty that it is complete or error-free. Car specifications and availability may change without notice."
+        ]
+      },
+      {
+        "heading": "Intellectual property",
+        "paragraphs": [
+          "The website design and content are provided for demonstration purposes. Vehicle marques and model names are the trademarks of their respective owners and are used for identification only."
+        ]
+      },
+      {
+        "heading": "External links",
+        "paragraphs": [
+          "This website links to third-party services such as WhatsApp. We are not responsible for the content or privacy practices of external services."
+        ]
+      },
+      {
+        "heading": "Changes",
+        "paragraphs": [
+          "We may update these terms from time to time. The current version is always available on this page."
+        ]
+      }
+    ]
+  },
+
+  "footer": {
+    "blurb": "A curated showroom for new and pre-owned luxury cars — hand-picked, inspected, and transparently listed. Enquiries handled personally on WhatsApp.",
+    "explore": "Explore",
+    "legal": "Legal",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "disclaimer": "AURUM is a demonstration showroom. Brand, cars, prices and stock are illustrative sample data."
+  },
+
+  "error": {
+    "notFound": {
+      "title": "This road doesn't exist",
+      "body": "The page you're looking for may have moved or never existed. Let's get you back on track."
+    },
+    "generic": {
+      "title": "Something went wrong",
+      "body": "An unexpected error occurred. Please try again in a moment."
+    },
+    "backHome": "Back home",
+    "browse": "Browse inventory"
+  }
+}

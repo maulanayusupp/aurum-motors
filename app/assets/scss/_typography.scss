@@ -1,0 +1,79 @@
+// =============================================================================
+// Global typography. Editorial serif display (Playfair) + clean sans (Manrope).
+// =============================================================================
+@use 'variables' as *;
+
+body {
+  font-family: $font-sans;
+  font-size: var(--fs-body);
+  color: var(--color-text);
+  letter-spacing: 0.005em;
+}
+
+h1,
+h2,
+h3,
+.u-display {
+  font-family: $font-display;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
+h4 {
+  font-family: $font-sans;
+  font-size: var(--fs-h4);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+// Eyebrow / kicker label above section headings.
+.u-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-family: $font-sans;
+  font-size: var(--fs-eyebrow);
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+
+  &::before {
+    content: '';
+    width: 1.75rem;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.7;
+  }
+}
+
+.u-lead {
+  font-size: var(--fs-lg);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+strong {
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+// Numeric figures (prices, specs) — tabular for tidy alignment.
+.u-numeric {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}

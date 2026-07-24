@@ -1,0 +1,80 @@
+// =============================================================================
+// Design tokens as CSS custom properties (runtime values). Single luxury dark
+// theme — champagne gold on near-black, editorial and calm. Change a brand
+// colour here and it propagates everywhere. (No light mode by design.)
+// =============================================================================
+
+:root {
+  // — Surfaces (near-black, layered) —
+  --color-bg: #0a0b0d;
+  --color-bg-2: #0e1013;
+  --color-surface: #14171b;
+  --color-surface-2: #1a1e23;
+  --color-elevated: #20252b;
+
+  // — Champagne gold accent scale —
+  --color-gold: #c9a24b;
+  --color-gold-soft: #e7cf9b;
+  --color-gold-deep: #9c7a2f;
+  --color-gold-glow: rgba(201, 162, 75, 0.28);
+
+  // — Text —
+  --color-text: #f4f1ea;
+  --color-text-muted: #a9a49a;
+  --color-text-dim: #726d64;
+  --color-on-gold: #17130a;
+
+  // — Lines & borders —
+  --color-border: rgba(233, 207, 155, 0.12);
+  --color-border-strong: rgba(233, 207, 155, 0.28);
+  --color-hairline: rgba(244, 241, 234, 0.08);
+
+  // — Status —
+  --color-success: #6fd08c;
+  --color-danger: #e8776b;
+  --color-info: #7fb2e5;
+
+  // — Condition badges —
+  --color-new: #6fd08c;
+  --color-used: #d9b976;
+
+  // — Radii —
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 30px;
+  --radius-pill: 999px;
+
+  // — Elevation —
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 28px 70px rgba(0, 0, 0, 0.6);
+  --shadow-gold: 0 18px 60px -12px var(--color-gold-glow);
+
+  // — Spacing scale —
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  // — Type scale (fluid) —
+  --fs-eyebrow: 0.78rem;
+  --fs-sm: 0.9rem;
+  --fs-body: 1.02rem;
+  --fs-lg: clamp(1.1rem, 1.6vw, 1.25rem);
+  --fs-h4: clamp(1.2rem, 2vw, 1.5rem);
+  --fs-h3: clamp(1.5rem, 3vw, 2.1rem);
+  --fs-h2: clamp(2rem, 4.5vw, 3.1rem);
+  --fs-h1: clamp(2.6rem, 7vw, 5rem);
+  --fs-display: clamp(3.2rem, 11vw, 8rem);
+
+  // — Misc —
+  --header-h: 74px;
+  --ring: var(--color-gold);
+}

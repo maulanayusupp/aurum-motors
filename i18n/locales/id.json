@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "tagline": "Mobil Mewah Pilihan",
+    "home": {
+      "title": "Mobil Mewah Pilihan, Baru & Bekas",
+      "description": "AURUM adalah showroom kurasi untuk mobil mewah baru dan bekas. Setiap unit dipilih dengan cermat, diperiksa, dan dipajang secara transparan. Konsultasi langsung via WhatsApp."
+    },
+    "inventory": {
+      "title": "Koleksi",
+      "description": "Jelajahi koleksi mobil mewah pilihan kami — coupé, sedan, SUV, dan mobil sport. Saring berdasarkan kondisi, tipe bodi, dan bahan bakar."
+    },
+    "about": {
+      "title": "Tentang AURUM",
+      "description": "Siapa kami dan bagaimana cara kami bekerja: pendekatan yang terkurasi dan transparan dalam membeli mobil mewah."
+    },
+    "contact": {
+      "title": "Kontak",
+      "description": "Hubungi tim AURUM via WhatsApp, telepon, atau email. Kami membalas dengan cepat dan personal."
+    },
+    "compliance": {
+      "title": "Kepercayaan & Kepatuhan",
+      "description": "Bagaimana kami melindungi pembeli: inspeksi, dokumen lengkap, perlindungan data, dan transparansi penuh."
+    },
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "description": "Bagaimana AURUM mengumpulkan, menggunakan, dan melindungi data pribadi Anda."
+    },
+    "terms": {
+      "title": "Ketentuan Penggunaan",
+      "description": "Ketentuan yang mengatur penggunaan situs web AURUM."
+    }
+  },
+
+  "a11y": {
+    "skipToContent": "Lewati ke konten",
+    "home": "Beranda AURUM",
+    "primaryNav": "Navigasi utama",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu"
+  },
+
+  "nav": {
+    "inventory": "Koleksi",
+    "about": "Tentang",
+    "compliance": "Kepercayaan",
+    "contact": "Kontak",
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "enquire": "Tanya"
+  },
+
+  "condition": {
+    "new": "Baru",
+    "used": "Bekas"
+  },
+  "body": {
+    "coupe": "Coupé",
+    "sedan": "Sedan",
+    "suv": "SUV",
+    "sport": "Sport",
+    "hatchback": "Hatchback",
+    "convertible": "Convertible"
+  },
+  "fuel": {
+    "petrol": "Bensin",
+    "diesel": "Diesel",
+    "hybrid": "Hibrida",
+    "electric": "Listrik"
+  },
+  "transmission": {
+    "automatic": "Otomatis",
+    "manual": "Manual"
+  },
+  "colors": {
+    "graphiteGrey": "Abu Grafit",
+    "lavaOrange": "Oranye Lava",
+    "arancioBorealis": "Arancio Borealis",
+    "alpineWhite": "Putih Alpine",
+    "obsidianBlack": "Hitam Obsidian",
+    "racingYellow": "Kuning Racing",
+    "pearlWhite": "Putih Mutiara",
+    "marinaBlue": "Biru Marina Bay",
+    "daytonaGrey": "Abu Daytona",
+    "santoriniBlack": "Hitam Santorini",
+    "rallyRed": "Merah Rally"
+  },
+
+  "f": {
+    "amgPerformance": "Paket AMG Performance",
+    "carbonTrim": "Trim interior serat karbon",
+    "burmesterAudio": "Audio surround Burmester",
+    "ceramicBrakes": "Rem komposit keramik",
+    "sportChrono": "Paket Sport Chrono",
+    "pasm": "Suspensi aktif (PASM)",
+    "sportExhaust": "Sistem knalpot sport",
+    "matrixLed": "Lampu depan Matrix LED",
+    "v10Engine": "Mesin V10 naturally-aspirated",
+    "awd": "Penggerak semua roda",
+    "ldvi": "Integrasi dinamis kendaraan (LDVI)",
+    "forgedWheels": "Pelek aloi tempa",
+    "mxDrive": "Penggerak semua roda M xDrive",
+    "carbonRoof": "Atap serat karbon",
+    "harmanKardon": "Audio Harman Kardon",
+    "laserLights": "BMW Laserlight",
+    "rearLounge": "Kursi lounge belakang eksekutif",
+    "mbux": "MBUX Hyperscreen",
+    "airmatic": "Suspensi udara AIRMATIC",
+    "burmester4d": "Suara Burmester 4D",
+    "flatSix": "Mesin boxer flat-six",
+    "bose": "Audio surround BOSE",
+    "sportSeatsPlus": "Kursi Sport Plus 18 arah",
+    "v8Biturbo": "V8 biturbo 4.0L",
+    "threeDiffLocks": "Tiga penguncian diferensial",
+    "nappaLeather": "Interior kulit Nappa",
+    "adaptiveDamping": "Peredaman adaptif",
+    "triMotor": "Penggerak tiga motor",
+    "longRange": "Baterai jarak jauh",
+    "autopilot": "Enhanced Autopilot",
+    "glassRoof": "Atap kaca panoramik",
+    "merinoLeather": "Interior kulit Merino",
+    "headUpDisplay": "Head-up display",
+    "quattro": "Penggerak semua roda quattro",
+    "bangOlufsen": "Audio 3D Bang & Olufsen",
+    "airSuspension": "Suspensi udara adaptif",
+    "terrainResponse": "Terrain Response 2",
+    "meridianAudio": "Suara signature Meridian",
+    "executiveSeats": "Kursi belakang Executive Class",
+    "cabinAirPurification": "Pemurnian udara kabin Pro",
+    "v8Ls": "Mesin V8 LS 6.2L",
+    "magneticRide": "Magnetic Ride Control",
+    "brembo": "Rem performa Brembo",
+    "dualExhaust": "Knalpot dual-mode"
+  },
+
+  "cars": {
+    "mercedes-amg-gt-2023": {
+      "tagline": "Grand tourer rakitan tangan dengan jiwa pembalap.",
+      "description": "AMG GT Coupé ini memadukan V8 posisi front-mid dengan sasis yang diasah untuk sirkuit, menghadirkan pengalaman berkendara yang tenang di jalan kota namun memukau di jalan terbuka. Berbalut Abu Grafit dengan kabin bertrim karbon dan audio Burmester, jarak tempuhnya masih sangat rendah dan tampil bak baru."
+    },
+    "porsche-911-carrera-2024": {
+      "tagline": "Mobil sport sejati, kini dalam wujud paling matang.",
+      "description": "911 Carrera S baru dalam warna Oranye Lava yang memikat. Sport Chrono, suspensi aktif PASM, dan knalpot sport menjadikan setiap perjalanan istimewa, sementara kepraktisan harian tetap khas 911. Diserahkan dengan dokumen prinsipal lengkap."
+    },
+    "lamborghini-huracan-2022": {
+      "tagline": "V10 naturally-aspirated yang mendefinisikan ulang momen.",
+      "description": "Huracán EVO menghadirkan salah satu V10 naturally-aspirated hebat terakhir, dipadu penggerak semua roda dan sistem integrasi dinamis Lamborghini. Tampil dalam Arancio Borealis dengan pelek tempa dan riwayat jarak tempuh rendah yang terdokumentasi."
+    },
+    "bmw-m4-competition-2023": {
+      "tagline": "Performa hasil rekayasa presisi dalam Putih Alpine.",
+      "description": "M4 Competition memadukan mesin twin-turbo straight-six 3.0L dengan traksi M xDrive dan atap karbon. Sebuah coupé fokus namun tetap nyaman harian, dengan catatan servis lengkap dan audio Harman Kardon."
+    },
+    "mercedes-s-class-2024": {
+      "tagline": "Tolok ukur kemewahan tanpa usaha.",
+      "description": "S 500 L baru dengan lounge belakang eksekutif, MBUX Hyperscreen, dan suspensi udara AIRMATIC. Tenang, canggih secara teknologi, dan berfinishing indah dalam Hitam Obsidian."
+    },
+    "porsche-718-cayman-2023": {
+      "tagline": "Keseimbangan mid-engine dalam bentuk paling murni.",
+      "description": "718 Cayman GTS dengan mesin flat-six dan transmisi manual sejati — mobil pengemudi dalam arti sebenarnya. Kuning Racing berpadu hitam, dilengkapi Sport Chrono dan audio BOSE."
+    },
+    "mercedes-g-class-2023": {
+      "tagline": "Ikon yang tak tunduk pada siapa pun.",
+      "description": "G 63 AMG menyatukan V8 biturbo rakitan tangan dengan kemampuan off-road sejati dan kehadiran yang tak tertandingi. Berbalut Hitam Obsidian dengan kabin kulit Nappa dan peredaman adaptif."
+    },
+    "tesla-model-s-plaid-2024": {
+      "tagline": "Performa tiga motor, nol emisi.",
+      "description": "Model S Plaid baru dengan penggerak tiga motor, baterai jarak jauh, dan atap kaca panoramik. Akselerasi instan tanpa suara dipadu jangkauan harian yang nyata."
+    },
+    "bmw-m5-2022": {
+      "tagline": "Sedan super yang bisa segalanya.",
+      "description": "M5 Competition menawarkan 617 hp, M xDrive, dan kabin kulit Merino — kecepatan supercar dalam balutan sedan lima penumpang. Terawat baik dengan riwayat terdokumentasi dan head-up display."
+    },
+    "audi-rs7-sportback-2023": {
+      "tagline": "Grand touring dengan ketegasan yang tenang.",
+      "description": "RS7 Sportback memadukan V8 mild-hybrid, cengkeraman quattro, dan audio 3D Bang & Olufsen dalam siluet fastback. Abu Daytona dengan suspensi udara adaptif dan lampu Matrix LED."
+    },
+    "range-rover-autobiography-2024": {
+      "tagline": "Kata terakhir dalam perjalanan mewah.",
+      "description": "Range Rover Autobiography baru dengan kursi belakang Executive Class, audio Meridian, dan pemurnian udara kabin. Berwibawa, halus, dan luar biasa cakap dalam Hitam Santorini."
+    },
+    "chevrolet-camaro-ss-2021": {
+      "tagline": "Muscle car Amerika dengan harga jujur.",
+      "description": "Camaro SS dengan V8 6.2L, transmisi manual, dan Magnetic Ride Control. Merah Rally dengan rem Brembo dan knalpot dual-mode — modern classic penuh karakter dengan riwayat yang jelas."
+    }
+  },
+
+  "car": {
+    "brandNew": "Baru",
+    "viewDetail": "Lihat detail",
+    "askWhatsApp": "Tanya via WhatsApp",
+    "backToInventory": "Kembali ke koleksi",
+    "overview": "Ikhtisar",
+    "specifications": "Spesifikasi",
+    "highlights": "Sorotan",
+    "relatedEyebrow": "Mungkin Anda suka",
+    "relatedTitle": "Mobil terkait",
+    "priceLabel": "Harga",
+    "priceNote": "Harga bersifat indikatif dan tunduk pada konfirmasi akhir. Pembiayaan dan tukar tambah dapat diatur.",
+    "inquiryCta": "Tanya via WhatsApp",
+    "callCta": "Telepon showroom",
+    "salesConsultant": "Konsultan Penjualan",
+    "assurance": {
+      "inspected": "Terinspeksi multi-titik",
+      "documents": "Dokumen lengkap",
+      "testDrive": "Test drive sesuai permintaan"
+    },
+    "specs": {
+      "year": "Tahun",
+      "mileage": "Jarak tempuh",
+      "power": "Tenaga",
+      "acceleration": "0–100 km/j",
+      "fuel": "Bahan bakar",
+      "transmission": "Transmisi",
+      "seats": "Kursi",
+      "color": "Warna"
+    }
+  },
+
+  "whatsapp": {
+    "generic": "Halo AURUM, saya ingin tahu lebih lanjut tentang mobil yang tersedia.",
+    "carInquiry": "Halo AURUM, saya tertarik dengan %car% (%price%). Apakah masih tersedia? %url%",
+    "fabLabel": "Chat via WhatsApp",
+    "fabText": "Chat dengan kami"
+  },
+
+  "home": {
+    "hero": {
+      "eyebrow": "Mewah Baru & Bekas",
+      "titleLine1": "Kendarai sesuatu yang",
+      "titleAccent": "istimewa",
+      "titleLine2": "— dipilih dengan cermat.",
+      "lead": "Showroom kurasi berisi mobil mewah, masing-masing dipilih dengan cermat, diperiksa, dan dipajang secara transparan. Tanpa tekanan, tanpa tebak-tebakan — hanya jalan yang jujur menuju mobil berikutnya.",
+      "ctaPrimary": "Jelajahi koleksi",
+      "ctaSecondary": "Chat via WhatsApp",
+      "spotlight": "Sorotan",
+      "stat": {
+        "units": "Unit terkurasi",
+        "brands": "Merek terwakili",
+        "documents": "Dokumen terverifikasi"
+      }
+    },
+    "marquee": {
+      "label": "Merek yang kami sediakan"
+    },
+    "featured": {
+      "eyebrow": "Unggulan",
+      "title": "Pilihan bulan ini",
+      "lead": "Sebagian dari koleksi kami saat ini — mobil yang paling ingin kami serahkan kepada Anda.",
+      "viewAll": "Lihat semua"
+    },
+    "value": {
+      "eyebrow": "Kenapa AURUM",
+      "title": "Cara yang lebih baik membeli mobil mewah",
+      "lead": "Kami membangun AURUM berdasarkan hal yang benar-benar diinginkan pembeli: kejujuran, kualitas, dan manusia sungguhan di seberang sana.",
+      "inspection": {
+        "title": "Diperiksa independen",
+        "body": "Setiap mobil melewati pemeriksaan mekanis dan kosmetik multi-titik sebelum tampil di halaman ini."
+      },
+      "curated": {
+        "title": "Benar-benar terkurasi",
+        "body": "Kami hanya memajang mobil yang bersedia kami miliki sendiri — tidak setiap mobil yang ditawarkan lolos seleksi."
+      },
+      "transparent": {
+        "title": "Listing transparan",
+        "body": "Spesifikasi jelas, catatan kondisi jujur, dan dokumen lengkap. Apa yang Anda lihat itulah yang Anda dapat."
+      },
+      "concierge": {
+        "title": "Concierge personal",
+        "body": "Satu titik kontak di WhatsApp, dari pertanyaan pertama hingga serah terima — dan seterusnya."
+      }
+    },
+    "process": {
+      "eyebrow": "Cara kerjanya",
+      "title": "Dari lihat pertama hingga berkendara pertama",
+      "lead": "Empat langkah sederhana. Tanpa tekanan dealer, tanpa kejutan tersembunyi.",
+      "browse": {
+        "title": "Jelajahi",
+        "body": "Telusuri koleksi dan buat daftar pendek mobil yang menarik hati Anda."
+      },
+      "consult": {
+        "title": "Konsultasi",
+        "body": "Kirim pesan ke kami di WhatsApp untuk pertanyaan apa pun — kami balas secara personal dan cepat."
+      },
+      "inspect": {
+        "title": "Periksa",
+        "body": "Tinjau catatan inspeksi dan dokumen, lalu jadwalkan test drive saat Anda siap."
+      },
+      "drive": {
+        "title": "Berkendara",
+        "body": "Kami urus dokumen dan serah terima agar Anda cukup menikmati mobilnya."
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Kata mereka",
+      "title": "Pembeli yang menemukan mobil idamannya",
+      "items": {
+        "t1": {
+          "quote": "Catatan kondisinya akurat dan seluruh prosesnya selesai lewat WhatsApp dalam satu sore. Jujur dan menyegarkan.",
+          "name": "Andreas W.",
+          "role": "Pembeli 911 Carrera"
+        },
+        "t2": {
+          "quote": "Tanpa tekanan, tanpa main-main. Setiap pertanyaan dijawab dan dokumen sudah lengkap sejak hari pertama.",
+          "name": "Sarah L.",
+          "role": "Pembeli Range Rover"
+        },
+        "t3": {
+          "quote": "Saya sudah membeli banyak mobil selama bertahun-tahun — ini pengalaman paling transparan sejauh ini.",
+          "name": "Dimas P.",
+          "role": "Pembeli G-Class"
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Kapan pun Anda siap",
+      "title": "Mari temukan mobil berikutnya",
+      "lead": "Ceritakan apa yang Anda cari dan kami arahkan ke unit yang tepat — atau kami carikan untuk Anda.",
+      "primary": "Chat via WhatsApp",
+      "secondary": "Hubungi tim"
+    }
+  },
+
+  "inventory": {
+    "eyebrow": "Koleksi",
+    "title": "Koleksi Mobil",
+    "lead": "Telusuri mobil mewah pilihan kami. Saring berdasarkan kondisi, tipe bodi, dan bahan bakar untuk menemukan yang tepat.",
+    "resultsCount": "{count} mobil",
+    "filters": {
+      "title": "Filter",
+      "condition": "Kondisi",
+      "body": "Tipe bodi",
+      "fuel": "Bahan bakar",
+      "sortBy": "Urutkan",
+      "reset": "Atur ulang",
+      "allConditions": "Semua kondisi",
+      "allBodies": "Semua tipe bodi",
+      "allFuels": "Semua bahan bakar",
+      "searchPlaceholder": "Cari merek atau model…"
+    },
+    "sort": {
+      "featured": "Unggulan",
+      "priceAsc": "Harga: terendah",
+      "priceDesc": "Harga: tertinggi",
+      "yearDesc": "Tahun: terbaru"
+    },
+    "empty": {
+      "title": "Tidak ada mobil yang cocok dengan filter",
+      "body": "Coba perluas pencarian, atau atur ulang filter untuk melihat seluruh koleksi."
+    }
+  },
+
+  "about": {
+    "eyebrow": "Tentang kami",
+    "title": "Mobil mewah, dipilih seperti kami memilih untuk diri sendiri",
+    "lead": "AURUM adalah showroom kurasi yang dibangun atas gagasan sederhana: membeli mobil indah seharusnya terasa sama nikmatnya dengan memilikinya.",
+    "imageAlt": "Sebuah mobil mewah dalam tatanan showroom yang elegan",
+    "story": {
+      "title": "Kisah kami",
+      "p1": "AURUM bermula dari kekesalan yang dirasakan setiap penggemar — bahwa membeli mobil istimewa terlalu sering melelahkan, tidak transparan, dan penuh tekanan. Kami ingin melakukan sebaliknya.",
+      "p2": "Maka kami membangun showroom di atas kurasi dan kejujuran. Kami memilih setiap mobil dengan cermat, memeriksanya secara independen, mendokumentasikannya lengkap, dan memajangnya apa adanya. Jika sebuah mobil tak cukup baik bagi kami, ia tak cukup baik bagi Anda.",
+      "p3": "Semuanya berjalan melalui satu titik kontak personal di WhatsApp, sehingga Anda selalu tahu dengan siapa berbicara. Tanpa antre, tanpa naskah — hanya jawaban yang lugas.",
+      "cta": "Hubungi kami"
+    },
+    "principles": {
+      "eyebrow": "Yang kami perjuangkan",
+      "title": "Prinsip yang tak kami kompromikan"
+    }
+  },
+
+  "contact": {
+    "eyebrow": "Hubungi kami",
+    "title": "Kami senang mendengar dari Anda",
+    "lead": "Punya pertanyaan tentang sebuah mobil, atau mencari sesuatu yang spesifik? Hubungi kami di WhatsApp untuk balasan tercepat, atau kirim pesan di bawah.",
+    "formTitle": "Kirim pesan",
+    "formLead": "Isi formulir dan kami akan menghubungi Anda kembali — atau lanjutkan langsung ke WhatsApp.",
+    "channels": {
+      "whatsapp": "WhatsApp (tercepat)",
+      "phone": "Telepon",
+      "email": "Email",
+      "address": "Showroom",
+      "hours": "Jam buka"
+    },
+    "info": {
+      "addressValue": "Jakarta, Indonesia (dengan janji temu)",
+      "hoursValue": "Sen–Sab, 09.00–18.00 WIB"
+    },
+    "form": {
+      "name": "Nama lengkap",
+      "namePlaceholder": "Nama Anda",
+      "phone": "Telepon (opsional)",
+      "phonePlaceholder": "+62…",
+      "email": "Email",
+      "emailPlaceholder": "anda{'@'}email.com",
+      "message": "Pesan",
+      "messagePlaceholder": "Beri tahu mobil yang Anda minati, atau apa yang Anda cari…",
+      "submit": "Kirim pesan",
+      "orWhatsApp": "Kirim via WhatsApp",
+      "privacyHint": "Dengan mengirim, Anda menyetujui kebijakan privasi kami. Kami hanya menggunakan data Anda untuk membalas pertanyaan Anda.",
+      "successTitle": "Pesan siap",
+      "successBody": "Terima kasih. Untuk balasan instan, lanjutkan percakapan di WhatsApp — kami biasanya merespons dalam hitungan menit pada jam buka.",
+      "continueWhatsApp": "Lanjut di WhatsApp",
+      "sendAnother": "Kirim lagi",
+      "whatsappTemplate": "Halo AURUM, nama saya {name}. {message}"
+    },
+    "errors": {
+      "nameRequired": "Mohon masukkan nama Anda.",
+      "emailRequired": "Mohon masukkan email Anda.",
+      "emailInvalid": "Mohon masukkan alamat email yang valid.",
+      "messageShort": "Mohon masukkan pesan minimal 10 karakter.",
+      "invalid": "Mohon periksa formulir dan coba lagi."
+    }
+  },
+
+  "compliance": {
+    "eyebrow": "Kepercayaan & kepatuhan",
+    "title": "Bagaimana kami melindungi Anda",
+    "lead": "Kami tak menjanjikan yang tak bisa kami penuhi — jadi inilah praktik konkret dan jujur di balik setiap listing AURUM.",
+    "items": {
+      "inspection": {
+        "title": "Inspeksi independen",
+        "body": "Setiap mobil menjalani inspeksi mekanis dan kosmetik multi-titik. Setiap kekurangan yang diketahui diungkap dalam listing."
+      },
+      "documents": {
+        "title": "Dokumen lengkap",
+        "body": "Kami memverifikasi dokumen kepemilikan dan kendaraan sebelum dipajang, dan menyerahkan set lengkap saat pembelian."
+      },
+      "privacy": {
+        "title": "Perlindungan data",
+        "body": "Kami hanya mengumpulkan yang diperlukan untuk menjawab pertanyaan Anda dan tidak pernah menjual data Anda. Lihat kebijakan privasi untuk detail."
+      },
+      "transparency": {
+        "title": "Listing jujur",
+        "body": "Spesifikasi, jarak tempuh, dan kondisi disajikan seakurat mungkin. Jika ada perubahan, kami perbarui."
+      },
+      "payment": {
+        "title": "Transaksi aman",
+        "body": "Pembayaran dilakukan melalui kanal resmi yang dapat dilacak. Kami tak pernah meminta uang tunai ke rekening informal."
+      },
+      "warranty": {
+        "title": "Ketentuan purna jual jelas",
+        "body": "Garansi atau dukungan purna jual yang ditawarkan pada mobil tertentu dinyatakan tertulis sebelum Anda berkomitmen."
+      }
+    },
+    "disclaimer": {
+      "title": "Tentang situs web ini",
+      "body": "AURUM adalah showroom demonstrasi. Merek, mobil yang tampil, harga, jarak tempuh, dan stok di sini adalah data contoh ilustratif untuk memamerkan situs web, bukan penawaran komersial nyata. Tidak ada pembelian yang bisa diselesaikan melalui situs ini — setiap pertanyaan ditangani secara personal via WhatsApp."
+    },
+    "help": "Punya pertanyaan tentang cara kami bekerja?",
+    "helpCta": "Tanya via WhatsApp"
+  },
+
+  "legal": {
+    "lastUpdated": "Terakhir diperbarui"
+  },
+
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Kebijakan Privasi",
+    "lead": "Kebijakan ini menjelaskan data pribadi apa yang kami kumpulkan, mengapa, dan bagaimana kami melindunginya.",
+    "updated": "24 Juli 2026",
+    "sections": [
+      {
+        "heading": "Siapa kami",
+        "paragraphs": [
+          "AURUM adalah situs web showroom demonstrasi. Kebijakan ini menjelaskan bagaimana data pribadi akan ditangani ketika Anda menghubungi kami melalui situs web atau WhatsApp.",
+          "Karena AURUM adalah proyek placeholder, tidak ada pemrosesan data komersial langsung yang terjadi selain membalas pesan yang Anda pilih untuk kirim."
+        ]
+      },
+      {
+        "heading": "Data yang kami kumpulkan",
+        "paragraphs": [
+          "Saat Anda mengirim formulir kontak, kami mengumpulkan nama, email, serta nomor telepon dan pesan yang Anda berikan.",
+          "Saat Anda menghubungi kami di WhatsApp, pesan dan nomor telepon Anda terlihat oleh kami melalui WhatsApp, tunduk pada ketentuan privasi WhatsApp sendiri.",
+          "Kami tidak menggunakan pelacak iklan. Sebuah cookie hanya digunakan untuk mengingat preferensi bahasa Anda."
+        ]
+      },
+      {
+        "heading": "Bagaimana kami menggunakan data Anda",
+        "paragraphs": [
+          "Kami menggunakan detail yang Anda berikan semata-mata untuk merespons pertanyaan Anda dan mengatur peninjauan atau pembelian yang Anda minta.",
+          "Kami tidak menjual atau menyewakan data pribadi Anda kepada pihak ketiga."
+        ]
+      },
+      {
+        "heading": "Penyimpanan data",
+        "paragraphs": [
+          "Kami menyimpan detail pertanyaan hanya selama diperlukan untuk membantu Anda, setelah itu dihapus atas permintaan."
+        ]
+      },
+      {
+        "heading": "Hak Anda",
+        "paragraphs": [
+          "Anda dapat meminta akses, koreksi, atau penghapusan data pribadi Anda kapan saja dengan menghubungi kami melalui detail di halaman kontak."
+        ]
+      },
+      {
+        "heading": "Kontak",
+        "paragraphs": [
+          "Untuk pertanyaan privasi apa pun, hubungi kami melalui kanal yang tercantum di halaman kontak."
+        ]
+      }
+    ]
+  },
+
+  "terms": {
+    "eyebrow": "Legal",
+    "title": "Ketentuan Penggunaan",
+    "lead": "Dengan menggunakan situs web ini, Anda menyetujui ketentuan berikut.",
+    "updated": "24 Juli 2026",
+    "sections": [
+      {
+        "heading": "Sifat situs web ini",
+        "paragraphs": [
+          "AURUM adalah showroom demonstrasi. Nama merek, kendaraan, harga, jarak tempuh, dan ketersediaan yang ditampilkan adalah data contoh ilustratif untuk memamerkan desain dan fitur situs.",
+          "Tidak ada apa pun di situs web ini yang merupakan penawaran mengikat, kontrak, atau nasihat profesional."
+        ]
+      },
+      {
+        "heading": "Tanpa transaksi daring",
+        "paragraphs": [
+          "Tidak ada penjualan atau pembayaran yang dapat diselesaikan melalui situs web ini. Semua pertanyaan ditangani secara personal, terutama via WhatsApp, dan transaksi nyata akan diatur oleh perjanjian tertulis terpisah."
+        ]
+      },
+      {
+        "heading": "Akurasi informasi",
+        "paragraphs": [
+          "Kami berupaya menjaga akurasi informasi namun tidak menjamin kelengkapan atau bebas kesalahan. Spesifikasi dan ketersediaan mobil dapat berubah tanpa pemberitahuan."
+        ]
+      },
+      {
+        "heading": "Hak kekayaan intelektual",
+        "paragraphs": [
+          "Desain dan konten situs web disediakan untuk tujuan demonstrasi. Merek kendaraan dan nama model adalah merek dagang pemiliknya masing-masing dan digunakan hanya untuk identifikasi."
+        ]
+      },
+      {
+        "heading": "Tautan eksternal",
+        "paragraphs": [
+          "Situs web ini menautkan ke layanan pihak ketiga seperti WhatsApp. Kami tidak bertanggung jawab atas konten atau praktik privasi layanan eksternal."
+        ]
+      },
+      {
+        "heading": "Perubahan",
+        "paragraphs": [
+          "Kami dapat memperbarui ketentuan ini dari waktu ke waktu. Versi terkini selalu tersedia di halaman ini."
+        ]
+      }
+    ]
+  },
+
+  "footer": {
+    "blurb": "Showroom kurasi untuk mobil mewah baru dan bekas — dipilih dengan cermat, diperiksa, dan dipajang secara transparan. Pertanyaan ditangani secara personal di WhatsApp.",
+    "explore": "Jelajahi",
+    "legal": "Legal",
+    "contact": "Kontak",
+    "rights": "Hak cipta dilindungi.",
+    "disclaimer": "AURUM adalah showroom demonstrasi. Merek, mobil, harga, dan stok adalah data contoh ilustratif."
+  },
+
+  "error": {
+    "notFound": {
+      "title": "Jalan ini tidak ada",
+      "body": "Halaman yang Anda cari mungkin telah dipindahkan atau tidak pernah ada. Mari kembali ke jalur."
+    },
+    "generic": {
+      "title": "Terjadi kesalahan",
+      "body": "Terjadi kesalahan tak terduga. Silakan coba lagi sebentar."
+    },
+    "backHome": "Kembali ke beranda",
+    "browse": "Jelajahi koleksi"
+  }
+}

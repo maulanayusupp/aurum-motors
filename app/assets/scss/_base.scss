@@ -1,0 +1,77 @@
+// =============================================================================
+// Base element + app-shell styling and the ambient background treatment that
+// gives the site its distinctive luxury depth (radial gold glows + fine grain).
+// =============================================================================
+@use 'variables' as *;
+
+body {
+  background-color: var(--color-bg);
+  background-image:
+    radial-gradient(ellipse 60% 50% at 82% -6%, rgba(201, 162, 75, 0.14), transparent 60%),
+    radial-gradient(ellipse 55% 45% at 8% 4%, rgba(201, 162, 75, 0.07), transparent 55%);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+// Subtle film-grain overlay for editorial texture (pure CSS, GPU-cheap).
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+#__nuxt {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+}
+
+// Section rhythm.
+.section {
+  padding-block: clamp(3.5rem, 8vw, 7rem);
+}
+
+.section--tight {
+  padding-block: clamp(2.5rem, 5vw, 4rem);
+}
+
+// Thin gold hairline divider used between major bands.
+.hairline {
+  height: 1px;
+  border: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-border-strong) 20%,
+    var(--color-border-strong) 80%,
+    transparent
+  );
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-on-gold);
+}
+
+// Themed scrollbar (WebKit) — subtle, on-brand.
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-deep);
+  border-radius: var(--radius-pill);
+  border: 3px solid var(--color-bg-2);
+}
