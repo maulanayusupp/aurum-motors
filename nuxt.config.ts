@@ -6,7 +6,9 @@ const scssShared = fileURLToPath(
   new URL('./app/assets/scss/_shared.scss', import.meta.url),
 )
 
-const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || 'https://aurum-motors.vercel.app'
+// Canonical site URL (no trailing slash — avoids `//og-image.png` when building
+// absolute asset URLs). Override per-environment via NUXT_PUBLIC_SITE_URL.
+const siteUrl = (process.env.NUXT_PUBLIC_SITE_URL || 'https://aurum-motors-ten.vercel.app').replace(/\/$/, '')
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({

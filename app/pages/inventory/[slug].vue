@@ -5,6 +5,7 @@
 import { usePageSeo } from '~/composables/usePageSeo'
 import { useCurrency } from '~/composables/useCurrency'
 import { inventoryService } from '~/services/inventory.service'
+import { carSocialImage } from '~/utils/format'
 
 const route = useRoute()
 const { t, locale } = useI18n()
@@ -27,7 +28,7 @@ const description = computed(() => t(`cars.${current.slug}.tagline`))
 const featureList = computed(() => current.featureKeys.map((k) => t(k)))
 
 usePageSeo(title, description, {
-  image: () => current.image,
+  image: () => carSocialImage(current.image),
   type: 'product',
 })
 
