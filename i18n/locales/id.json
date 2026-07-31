@@ -3,7 +3,7 @@
     "tagline": "Mobil Mewah Pilihan",
     "home": {
       "title": "Mobil Mewah Pilihan, Baru & Bekas",
-      "description": "AURUM adalah showroom kurasi untuk mobil mewah baru dan bekas. Setiap unit dipilih dengan cermat, diperiksa, dan dipajang secara transparan. Konsultasi langsung via WhatsApp."
+      "description": "AURUM adalah showroom kurasi untuk mobil mewah baru dan bekas. Setiap unit dipilih dengan cermat, diperiksa, dan dipajang secara transparan. Konsultasi langsung via email."
     },
     "inventory": {
       "title": "Koleksi",
@@ -15,7 +15,7 @@
     },
     "contact": {
       "title": "Kontak",
-      "description": "Hubungi tim AURUM via WhatsApp, telepon, atau email. Kami membalas dengan cepat dan personal."
+      "description": "Hubungi tim AURUM via email. Kami membalas dengan cepat dan personal."
     },
     "compliance": {
       "title": "Kepercayaan & Kepatuhan",
@@ -186,7 +186,7 @@
   "car": {
     "brandNew": "Baru",
     "viewDetail": "Lihat detail",
-    "askWhatsApp": "Tanya via WhatsApp",
+    "askEmail": "Tanya via email",
     "backToInventory": "Kembali ke koleksi",
     "overview": "Ikhtisar",
     "specifications": "Spesifikasi",
@@ -195,8 +195,7 @@
     "relatedTitle": "Mobil terkait",
     "priceLabel": "Harga",
     "priceNote": "Harga bersifat indikatif dan tunduk pada konfirmasi akhir. Pembiayaan dan tukar tambah dapat diatur.",
-    "inquiryCta": "Tanya via WhatsApp",
-    "callCta": "Telepon showroom",
+    "inquiryCta": "Tanya via email",
     "salesConsultant": "Konsultan Penjualan",
     "assurance": {
       "inspected": "Terinspeksi multi-titik",
@@ -215,11 +214,13 @@
     }
   },
 
-  "whatsapp": {
+  "mail": {
     "generic": "Halo AURUM, saya ingin tahu lebih lanjut tentang mobil yang tersedia.",
+    "subject": "Pertanyaan — AURUM",
     "carInquiry": "Halo AURUM, saya tertarik dengan %car% (%price%). Apakah masih tersedia? %url%",
-    "fabLabel": "Chat via WhatsApp",
-    "fabText": "Chat dengan kami"
+    "carSubject": "Pertanyaan: %car%",
+    "fabLabel": "Email kami",
+    "fabText": "Email kami"
   },
 
   "home": {
@@ -230,7 +231,7 @@
       "titleLine2": "— dipilih dengan cermat.",
       "lead": "Showroom kurasi berisi mobil mewah, masing-masing dipilih dengan cermat, diperiksa, dan dipajang secara transparan. Tanpa tekanan, tanpa tebak-tebakan — hanya jalan yang jujur menuju mobil berikutnya.",
       "ctaPrimary": "Jelajahi koleksi",
-      "ctaSecondary": "Chat via WhatsApp",
+      "ctaSecondary": "Email kami",
       "spotlight": "Sorotan",
       "stat": {
         "units": "Unit terkurasi",
@@ -265,7 +266,7 @@
       },
       "concierge": {
         "title": "Concierge personal",
-        "body": "Satu titik kontak di WhatsApp, dari pertanyaan pertama hingga serah terima — dan seterusnya."
+        "body": "Satu titik kontak melalui email, dari pertanyaan pertama hingga serah terima — dan seterusnya."
       }
     },
     "process": {
@@ -278,7 +279,7 @@
       },
       "consult": {
         "title": "Konsultasi",
-        "body": "Kirim pesan ke kami di WhatsApp untuk pertanyaan apa pun — kami balas secara personal dan cepat."
+        "body": "Kirim email ke kami untuk pertanyaan apa pun — kami balas secara personal dan cepat."
       },
       "inspect": {
         "title": "Periksa",
@@ -294,7 +295,7 @@
       "title": "Pembeli yang menemukan mobil idamannya",
       "items": {
         "t1": {
-          "quote": "Catatan kondisinya akurat dan seluruh prosesnya selesai lewat WhatsApp dalam satu sore. Jujur dan menyegarkan.",
+          "quote": "Catatan kondisinya akurat dan seluruh prosesnya selesai lewat email dalam satu sore. Jujur dan menyegarkan.",
           "name": "Andreas W.",
           "role": "Pembeli 911 Carrera"
         },
@@ -314,7 +315,7 @@
       "eyebrow": "Kapan pun Anda siap",
       "title": "Mari temukan mobil berikutnya",
       "lead": "Ceritakan apa yang Anda cari dan kami arahkan ke unit yang tepat — atau kami carikan untuk Anda.",
-      "primary": "Chat via WhatsApp",
+      "primary": "Email kami",
       "secondary": "Hubungi tim"
     }
   },
@@ -357,7 +358,7 @@
       "title": "Kisah kami",
       "p1": "AURUM bermula dari kekesalan yang dirasakan setiap penggemar — bahwa membeli mobil istimewa terlalu sering melelahkan, tidak transparan, dan penuh tekanan. Kami ingin melakukan sebaliknya.",
       "p2": "Maka kami membangun showroom di atas kurasi dan kejujuran. Kami memilih setiap mobil dengan cermat, memeriksanya secara independen, mendokumentasikannya lengkap, dan memajangnya apa adanya. Jika sebuah mobil tak cukup baik bagi kami, ia tak cukup baik bagi Anda.",
-      "p3": "Semuanya berjalan melalui satu titik kontak personal di WhatsApp, sehingga Anda selalu tahu dengan siapa berbicara. Tanpa antre, tanpa naskah — hanya jawaban yang lugas.",
+      "p3": "Semuanya berjalan melalui satu titik kontak personal via email, sehingga Anda selalu tahu dengan siapa berbicara. Tanpa antre, tanpa naskah — hanya jawaban yang lugas.",
       "cta": "Hubungi kami"
     },
     "principles": {
@@ -369,12 +370,10 @@
   "contact": {
     "eyebrow": "Hubungi kami",
     "title": "Kami senang mendengar dari Anda",
-    "lead": "Punya pertanyaan tentang sebuah mobil, atau mencari sesuatu yang spesifik? Hubungi kami di WhatsApp untuk balasan tercepat, atau kirim pesan di bawah.",
+    "lead": "Punya pertanyaan tentang sebuah mobil, atau mencari sesuatu yang spesifik? Kirim email ke kami untuk balasan personal, atau kirim pesan di bawah.",
     "formTitle": "Kirim pesan",
-    "formLead": "Isi formulir dan kami akan menghubungi Anda kembali — atau lanjutkan langsung ke WhatsApp.",
+    "formLead": "Isi formulir dan kami akan menghubungi Anda kembali — atau kirim langsung dari aplikasi email Anda.",
     "channels": {
-      "whatsapp": "WhatsApp (tercepat)",
-      "phone": "Telepon",
       "email": "Email",
       "address": "Showroom",
       "hours": "Jam buka"
@@ -393,13 +392,13 @@
       "message": "Pesan",
       "messagePlaceholder": "Beri tahu mobil yang Anda minati, atau apa yang Anda cari…",
       "submit": "Kirim pesan",
-      "orWhatsApp": "Kirim via WhatsApp",
+      "orEmail": "Kirim via email",
       "privacyHint": "Dengan mengirim, Anda menyetujui kebijakan privasi kami. Kami hanya menggunakan data Anda untuk membalas pertanyaan Anda.",
       "successTitle": "Pesan siap",
-      "successBody": "Terima kasih. Untuk balasan instan, lanjutkan percakapan di WhatsApp — kami biasanya merespons dalam hitungan menit pada jam buka.",
-      "continueWhatsApp": "Lanjut di WhatsApp",
+      "successBody": "Terima kasih. Untuk balasan langsung, lanjutkan percakapan melalui email — kami biasanya merespons dalam satu hari kerja.",
+      "continueEmail": "Lanjut via email",
       "sendAnother": "Kirim lagi",
-      "whatsappTemplate": "Halo AURUM, nama saya {name}. {message}"
+      "mailTemplate": "Halo AURUM, nama saya {name}. {message}"
     },
     "errors": {
       "nameRequired": "Mohon masukkan nama Anda.",
@@ -442,10 +441,10 @@
     },
     "disclaimer": {
       "title": "Tentang situs web ini",
-      "body": "AURUM adalah showroom demonstrasi. Merek, mobil yang tampil, harga, jarak tempuh, dan stok di sini adalah data contoh ilustratif untuk memamerkan situs web, bukan penawaran komersial nyata. Tidak ada pembelian yang bisa diselesaikan melalui situs ini — setiap pertanyaan ditangani secara personal via WhatsApp."
+      "body": "AURUM adalah showroom demonstrasi. Merek, mobil yang tampil, harga, jarak tempuh, dan stok di sini adalah data contoh ilustratif untuk memamerkan situs web, bukan penawaran komersial nyata. Tidak ada pembelian yang bisa diselesaikan melalui situs ini — setiap pertanyaan ditangani secara personal via email."
     },
     "help": "Punya pertanyaan tentang cara kami bekerja?",
-    "helpCta": "Tanya via WhatsApp"
+    "helpCta": "Email kami"
   },
 
   "legal": {
@@ -461,7 +460,7 @@
       {
         "heading": "Siapa kami",
         "paragraphs": [
-          "AURUM adalah situs web showroom demonstrasi. Kebijakan ini menjelaskan bagaimana data pribadi akan ditangani ketika Anda menghubungi kami melalui situs web atau WhatsApp.",
+          "AURUM adalah situs web showroom demonstrasi. Kebijakan ini menjelaskan bagaimana data pribadi akan ditangani ketika Anda menghubungi kami melalui situs web atau email.",
           "Karena AURUM adalah proyek placeholder, tidak ada pemrosesan data komersial langsung yang terjadi selain membalas pesan yang Anda pilih untuk kirim."
         ]
       },
@@ -469,7 +468,7 @@
         "heading": "Data yang kami kumpulkan",
         "paragraphs": [
           "Saat Anda mengirim formulir kontak, kami mengumpulkan nama, email, serta nomor telepon dan pesan yang Anda berikan.",
-          "Saat Anda menghubungi kami di WhatsApp, pesan dan nomor telepon Anda terlihat oleh kami melalui WhatsApp, tunduk pada ketentuan privasi WhatsApp sendiri.",
+          "Saat Anda mengirim email kepada kami, pesan dan alamat pengirim Anda terlihat oleh kami di kotak surat kami, tunduk pada ketentuan penyedia email Anda sendiri.",
           "Kami tidak menggunakan pelacak iklan. Sebuah cookie hanya digunakan untuk mengingat preferensi bahasa Anda."
         ]
       },
@@ -517,7 +516,7 @@
       {
         "heading": "Tanpa transaksi daring",
         "paragraphs": [
-          "Tidak ada penjualan atau pembayaran yang dapat diselesaikan melalui situs web ini. Semua pertanyaan ditangani secara personal, terutama via WhatsApp, dan transaksi nyata akan diatur oleh perjanjian tertulis terpisah."
+          "Tidak ada penjualan atau pembayaran yang dapat diselesaikan melalui situs web ini. Semua pertanyaan ditangani secara personal melalui email, dan transaksi nyata akan diatur oleh perjanjian tertulis terpisah."
         ]
       },
       {
@@ -535,7 +534,7 @@
       {
         "heading": "Tautan eksternal",
         "paragraphs": [
-          "Situs web ini menautkan ke layanan pihak ketiga seperti WhatsApp. Kami tidak bertanggung jawab atas konten atau praktik privasi layanan eksternal."
+          "Situs web ini menautkan ke layanan pihak ketiga seperti Instagram. Kami tidak bertanggung jawab atas konten atau praktik privasi layanan eksternal."
         ]
       },
       {
@@ -548,7 +547,7 @@
   },
 
   "footer": {
-    "blurb": "Showroom kurasi untuk mobil mewah baru dan bekas — dipilih dengan cermat, diperiksa, dan dipajang secara transparan. Pertanyaan ditangani secara personal di WhatsApp.",
+    "blurb": "Showroom kurasi untuk mobil mewah baru dan bekas — dipilih dengan cermat, diperiksa, dan dipajang secara transparan. Pertanyaan ditangani secara personal melalui email.",
     "explore": "Jelajahi",
     "legal": "Legal",
     "contact": "Kontak",

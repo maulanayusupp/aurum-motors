@@ -2,7 +2,7 @@
 // Sticky site header: transparent at the top, frosted glass once scrolled.
 // Desktop inline nav + mobile slide-in drawer. Data comes from contentService.
 import { contentService } from '~/services/content.service'
-import { whatsappBaseLink } from '~/services/whatsapp.service'
+import { mailBaseLink } from '~/services/mail.service'
 
 const { t } = useI18n()
 const localePath = useLocalePath()
@@ -60,11 +60,10 @@ const isActive = (to: string) => route.path === localePath(to) || route.path.sta
       <div class="header__actions">
         <LanguageSwitcher />
         <BaseButton
-          :href="whatsappBaseLink()"
-          target="_blank"
+          :href="mailBaseLink()"
           variant="primary"
           size="sm"
-          icon-left="whatsapp"
+          icon-left="mail"
           class="header__cta"
         >
           {{ t('nav.enquire') }}
@@ -95,11 +94,10 @@ const isActive = (to: string) => route.path === localePath(to) || route.path.sta
           </NuxtLink>
         </nav>
         <BaseButton
-          :href="whatsappBaseLink()"
-          target="_blank"
+          :href="mailBaseLink()"
           variant="primary"
           block
-          icon-left="whatsapp"
+          icon-left="mail"
         >
           {{ t('nav.enquire') }}
         </BaseButton>

@@ -10,7 +10,7 @@
 **luxury car marketplace / e-commerce showroom** for **new & pre-owned** cars.
 It is designed to feel premium and interactive so it attracts buyers, and to be
 easy to maintain and scale. Because individual cars are high-ticket items, the
-"checkout" is a **WhatsApp handoff** (prefilled enquiry) rather than an online
+"checkout" is an **email handoff** (prefilled enquiry) rather than an online
 cart — this is intentional, not a missing feature.
 
 Content model: the catalogue = **12 demonstration units** (`inventory.config.ts`
@@ -19,7 +19,8 @@ Content model: the catalogue = **12 demonstration units** (`inventory.config.ts`
 compliance page states **honest working practices only** (inspection, complete
 documents, data protection, transparency, secure transactions, clear after-sale
 terms) with a **demo disclaimer** — NO certification/partnership/over-claims.
-Sales contact: Maulana Yusup Abdullah, WhatsApp `6287822766333`.
+Sales contact: Maulana Yusup Abdullah, email `maulanayusupp@gmail.com`. Email is
+the **only** published channel — no phone number, no WhatsApp.
 
 ## Stack (verified versions — 2026-07-24)
 
@@ -56,7 +57,7 @@ app/
   assets/scss/            # design system (see §Styling)
   components/
     base/     # BaseIcon, BaseButton, BaseBadge, BaseSelect, BaseField
-    layout/   # AppHeader, AppFooter, BrandLogo, LanguageSwitcher, WhatsAppFab
+    layout/   # AppHeader, AppFooter, BrandLogo, LanguageSwitcher, ContactFab
     common/   # SectionHeading, PageHero, LegalDocument, RevealOnScroll
     home/     # HeroShowcase, BrandMarquee, FeaturedCars, ValueProps,
               #   ProcessSteps, TestimonialWall, CtaBand
@@ -65,10 +66,10 @@ app/
     contact/  # ContactForm
   composables/  # usePageSeo, useCurrency, useInventoryFilters, useReveal, useTilt
   config/       # brand / navigation / inventory / site config (structure, NOT text)
-  services/     # content, inventory, whatsapp, contact (data-access + logic layer)
+  services/     # content, inventory, mail, contact (data-access + logic layer)
   utils/        # format (currency/number), iconPaths (icon library)
   types/        # shared TS types
-  layouts/default.vue      # header + <slot> + footer + WhatsApp FAB + skip link
+  layouts/default.vue      # header + <slot> + footer + email FAB + skip link
   pages/        # index, inventory/index, inventory/[slug], about, contact,
                 #   compliance, privacy, terms
 i18n/locales/{en,id}.json  # ALL user-facing text
@@ -88,21 +89,21 @@ names don't appear in tags: `<BaseIcon>`, `<CarCard>`, `<AppHeader>`, etc.
 - **Structure vs. text.** `config/*` holds structure (ids, icons, prices,
   specs, routes, image paths). All human-readable strings live in i18n by key.
 - **Business logic in services.** Filtering/sorting/search lives in
-  `inventory.service`; WhatsApp deep-linking in `whatsapp.service`; validation
+  `inventory.service`; `mailto:` deep-linking in `mail.service`; validation
   in `contact.service`. Composables are thin (`useInventoryFilters` binds
   service + URL state; `useCurrency` binds formatting to the locale).
 - **Helpers = composables** (`usePageSeo`, `useCurrency`, `useReveal`, `useTilt`)
   and pure functions in `utils/` (`format`, `iconPaths`).
 
-## E-commerce / WhatsApp model
+## E-commerce / email model
 
 - Cars are browsed on `/inventory` (filterable, URL-synced) and detailed on
   `/inventory/[slug]` (gallery + specs + highlights + Product JSON-LD).
-- The purchase path is a **WhatsApp handoff**: `whatsapp.service` builds
-  `wa.me` links with a **localized, prefilled** message (car name, price, URL).
+- The purchase path is an **email handoff**: `mail.service` builds `mailto:`
+  links with a **localized, prefilled** subject + body (car name, price, URL).
   Templates use `%car%` / `%price%` / `%url%` tokens (NOT vue-i18n `{}` syntax,
   so the raw template survives translation before substitution).
-- A floating WhatsApp button (`WhatsAppFab`) is present on every page.
+- A floating email button (`ContactFab`) is present on every page.
 
 ## Styling (SCSS, no inline CSS — hard rule)
 
@@ -127,7 +128,7 @@ names don't appear in tags: `<BaseIcon>`, `<CarCard>`, `<AppHeader>`, etc.
 - Keys mirror the page/section structure. **Keep EN and ID in lockstep** — same
   keys, no missing translations. Car prose is under `cars.<slug>.{tagline,
   description}`; shared feature names under `f.*`.
-- WhatsApp car-enquiry templates use `%token%` placeholders (see above).
+- Email car-enquiry templates use `%token%` placeholders (see above).
 - Legal pages (`privacy`, `terms`) read a `sections[]` array via `tm()` + `rt()`.
 
 ## SEO & social link previews

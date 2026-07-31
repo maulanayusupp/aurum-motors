@@ -1,10 +1,10 @@
 <script setup lang="ts">
 // Sticky purchase/inquiry panel on the detail page. Price + condition + the
-// primary WhatsApp handoff (prefilled with this car) and a call fallback.
+// email handoff, prefilled with this car.
 import { brandConfig } from '~/config/brand.config'
 import { useCurrency } from '~/composables/useCurrency'
 import type { Car } from '~/types'
-import { carInquiryLink } from '~/services/whatsapp.service'
+import { carInquiryLink } from '~/services/mail.service'
 
 const props = defineProps<{ car: Car }>()
 const { t, locale } = useI18n()
@@ -13,13 +13,13 @@ const site = useSiteConfig()
 const localePath = useLocalePath()
 
 const url = computed(() => `${site.url}${localePath(`/inventory/${props.car.slug}`)}`)
-const waLink = computed(() =>
-  carInquiryLink(props.car, t('whatsapp.carInquiry'), {
+const mailHref = computed(() =>
+  carInquiryLink(props.car, t('mail.carInquiry'), {
     locale: locale.value,
     url: url.value,
+    subject: t('mail.carSubject'),
   }),
 )
-const telLink = `tel:+${brandConfig.whatsapp}`
 </script>
 
 <template>
@@ -34,18 +34,8 @@ const telLink = `tel:+${brandConfig.whatsapp}`
     <PriceTag :amount="car.priceIdr" :compact="false" size="lg" />
     <p class="inquiry__note">{{ t('car.priceNote') }}</p>
 
-    <BaseButton
-      :href="waLink"
-      target="_blank"
-      variant="primary"
-      block
-      size="lg"
-      icon-left="whatsapp"
-    >
+    <BaseButton :href="mailHref" variant="primary" block size="lg" icon-left="mail">
       {{ t('car.inquiryCta') }}
-    </BaseButton>
-    <BaseButton :href="telLink" variant="gold-outline" block icon-left="phone">
-      {{ t('car.callCta') }}
     </BaseButton>
 
     <div class="inquiry__agent">

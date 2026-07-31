@@ -1,11 +1,11 @@
 <script setup lang="ts">
 // Inventory card: pointer-tilt, image with condition badge, key specs, price,
 // and links to the detail page. Interactive yet accessible (whole card is a
-// link via a stretched overlay; the WhatsApp CTA is a separate link).
+// link via a stretched overlay; the email CTA is a separate link).
 import { useCurrency } from '~/composables/useCurrency'
 import { useTilt } from '~/composables/useTilt'
 import type { Car } from '~/types'
-import { carInquiryLink } from '~/services/whatsapp.service'
+import { carInquiryLink } from '~/services/mail.service'
 
 const props = withDefaults(
   defineProps<{ car: Car; eager?: boolean }>(),
@@ -30,7 +30,7 @@ const quickSpecs = computed(() => [
 ])
 
 const inquiryLink = computed(() =>
-  carInquiryLink(props.car, t('whatsapp.carInquiry')),
+  carInquiryLink(props.car, t('mail.carInquiry'), { subject: t('mail.carSubject') }),
 )
 </script>
 
@@ -88,8 +88,8 @@ const inquiryLink = computed(() =>
         class="card__wa"
         @click.stop
       >
-        <BaseIcon name="whatsapp" :size="16" />
-        {{ t('car.askWhatsApp') }}
+        <BaseIcon name="mail" :size="16" />
+        {{ t('car.askEmail') }}
       </a>
     </div>
   </article>

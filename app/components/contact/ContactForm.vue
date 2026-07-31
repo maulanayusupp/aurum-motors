@@ -1,9 +1,9 @@
 <script setup lang="ts">
 // Contact form. Validates via contactService (i18n error keys), simulates a
-// submit, and always offers a WhatsApp handoff prefilled from the form — the
+// submit, and always offers an email handoff prefilled from the form — the
 // fastest path to a human. No inline styles; all state-driven classes.
 import { contactService, type ContactFieldErrors } from '~/services/contact.service'
-import { whatsappLink } from '~/services/whatsapp.service'
+import { mailLink } from '~/services/mail.service'
 import type { ContactPayload } from '~/types'
 
 const { t } = useI18n()
@@ -13,12 +13,13 @@ const errors = reactive<ContactFieldErrors>({})
 const submitting = ref(false)
 const submitted = ref(false)
 
-const waLink = computed(() =>
-  whatsappLink(
-    t('contact.form.whatsappTemplate', {
+const mailHref = computed(() =>
+  mailLink(
+    t('contact.form.mailTemplate', {
       name: form.name || '—',
-      message: form.message || t('whatsapp.generic'),
+      message: form.message || t('mail.generic'),
     }),
+    t('mail.subject'),
   ),
 )
 
@@ -59,8 +60,8 @@ const reset = () => {
         <h3 class="success__title">{{ t('contact.form.successTitle') }}</h3>
         <p class="success__body">{{ t('contact.form.successBody') }}</p>
         <div class="success__actions">
-          <BaseButton :href="waLink" target="_blank" variant="primary" icon-left="whatsapp">
-            {{ t('contact.form.continueWhatsApp') }}
+          <BaseButton :href="mailHref" variant="primary" icon-left="mail">
+            {{ t('contact.form.continueEmail') }}
           </BaseButton>
           <BaseButton variant="ghost" @click="reset">{{ t('contact.form.sendAnother') }}</BaseButton>
         </div>
@@ -106,8 +107,8 @@ const reset = () => {
           <BaseButton type="submit" variant="primary" size="lg" :loading="submitting" icon-right="arrow-right">
             {{ t('contact.form.submit') }}
           </BaseButton>
-          <BaseButton :href="waLink" target="_blank" variant="gold-outline" size="lg" icon-left="whatsapp">
-            {{ t('contact.form.orWhatsApp') }}
+          <BaseButton :href="mailHref" variant="gold-outline" size="lg" icon-left="mail">
+            {{ t('contact.form.orEmail') }}
           </BaseButton>
         </div>
         <p class="form__hint">{{ t('contact.form.privacyHint') }}</p>

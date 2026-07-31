@@ -1,12 +1,12 @@
 <script setup lang="ts">
-// Persistent floating WhatsApp button — the primary sales channel. Appears on
-// every page (rendered from the default layout). Reveals after a small scroll.
-import { whatsappLink } from '~/services/whatsapp.service'
+// Persistent floating email button — the only sales channel. Appears on every
+// page (rendered from the default layout). Reveals after a small scroll.
+import { mailLink } from '~/services/mail.service'
 
 const { t } = useI18n()
 const shown = ref(false)
 
-const link = computed(() => whatsappLink(t('whatsapp.generic')))
+const link = computed(() => mailLink(t('mail.generic'), t('mail.subject')))
 
 const onScroll = () => {
   shown.value = window.scrollY > 280
@@ -22,14 +22,12 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
     <a
       v-show="shown"
       :href="link"
-      target="_blank"
-      rel="noopener noreferrer"
       class="fab"
-      :aria-label="t('whatsapp.fabLabel')"
+      :aria-label="t('mail.fabLabel')"
     >
       <span class="fab__pulse" aria-hidden="true" />
-      <BaseIcon name="whatsapp" :size="28" />
-      <span class="fab__text">{{ t('whatsapp.fabText') }}</span>
+      <BaseIcon name="mail" :size="28" />
+      <span class="fab__text">{{ t('mail.fabText') }}</span>
     </a>
   </Transition>
 </template>
@@ -45,13 +43,13 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
   gap: 0.6rem;
   padding: 0.85rem 1.1rem;
   border-radius: var(--radius-pill);
-  background: linear-gradient(135deg, #25d366, #128c4b);
-  color: #fff;
+  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-deep));
+  color: var(--color-bg);
   font-weight: 700;
   font-size: var(--fs-sm);
-  box-shadow: 0 14px 40px -8px rgba(37, 211, 102, 0.55);
+  box-shadow: 0 14px 40px -8px rgba(201, 162, 75, 0.55);
   transition: transform 0.3s $ease-spring, box-shadow 0.3s $ease-out;
-  @include focus-ring(#fff, 3px);
+  @include focus-ring;
 
   &:hover {
     transform: translateY(-3px) scale(1.03);

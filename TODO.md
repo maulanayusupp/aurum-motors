@@ -7,7 +7,7 @@ update `CLAUDE.md` + both locales + compliance pages as needed.
 
 - [ ] **Real enquiry endpoint.** Replace the simulated `contact.service.submit`
       with a Nuxt server route (`server/api/contact.post.ts`) + email/CRM/
-      WhatsApp Business API, so form leads are captured, not only handed off.
+      transactional email API, so form leads are captured, not only handed off.
 - [ ] **Real photography.** Swap the licence-free demo photos in `public/cars`
       for owned showroom photography (keep the same filenames). Add multiple
       genuine angles per car for the gallery.
@@ -28,7 +28,7 @@ update `CLAUDE.md` + both locales + compliance pages as needed.
 ## Content & pages
 
 - [ ] **Blog / editorial** (buying guides, model spotlights) via `@nuxt/content`.
-- [ ] **Sell your car** page (consignment intake form → WhatsApp).
+- [ ] **Sell your car** page (consignment intake form → email).
 - [ ] Team / showroom **location page** with an embedded map.
 - [ ] Real testimonials with consent once available (currently illustrative).
 
@@ -43,7 +43,7 @@ update `CLAUDE.md` + both locales + compliance pages as needed.
 
 - [ ] **PWA** (installable) via `@vite-pwa/nuxt` using the generated manifest.
 - [ ] **Analytics** + privacy-friendly consent banner.
-- [ ] Unit tests (Vitest) for services (`inventory`, `whatsapp`, `format`) +
+- [ ] Unit tests (Vitest) for services (`inventory`, `mail`, `format`) +
       component tests; Playwright e2e for nav, filters, and enquiry flow.
 - [ ] CI: typecheck, build, lint on PRs.
 
@@ -52,6 +52,6 @@ update `CLAUDE.md` + both locales + compliance pages as needed.
 - [x] 2026-07-24 — Initial site: Nuxt 4 luxury car marketplace (AURUM). 8 pages
       (home, inventory list + detail, about, contact, compliance, privacy,
       terms), 12 demo units, EN/ID i18n (default ID), SCSS design system
-      (champagne-gold dark theme), WhatsApp e-commerce handoff + floating FAB,
+      (champagne-gold dark theme), email e-commerce handoff + floating FAB,
       URL-synced inventory filters, interactive tilt/reveal UI, Product JSON-LD,
       SEO (sitemap/robots/OG), generated favicons + OG image.

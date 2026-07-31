@@ -4,11 +4,11 @@
 // placeholder/demo disclaimer.
 import { usePageSeo } from '~/composables/usePageSeo'
 import { contentService } from '~/services/content.service'
-import { whatsappLink } from '~/services/whatsapp.service'
+import { mailLink } from '~/services/mail.service'
 
 const { t } = useI18n()
 const items = contentService.getComplianceItems()
-const waLink = computed(() => whatsappLink(t('whatsapp.generic')))
+const mailHref = computed(() => mailLink(t('mail.generic'), t('mail.subject')))
 
 usePageSeo(
   () => t('meta.compliance.title'),
@@ -50,7 +50,7 @@ usePageSeo(
 
       <div class="cta">
         <p class="cta__text">{{ t('compliance.help') }}</p>
-        <BaseButton :href="waLink" target="_blank" variant="primary" icon-left="whatsapp">
+        <BaseButton :href="mailHref" variant="primary" icon-left="mail">
           {{ t('compliance.helpCta') }}
         </BaseButton>
       </div>

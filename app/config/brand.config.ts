@@ -16,20 +16,18 @@ export const brandConfig = {
   /** Primary accent — champagne gold (mirrors --color-gold in SCSS tokens). */
   accent: '#c9a24b',
   accentAlt: '#e7cf9b',
-  /** Contact endpoints (overridable via runtimeConfig / env). */
+  /**
+   * The single contact endpoint (overridable via runtimeConfig / env). Email is
+   * the only channel the showroom publishes — no phone, no WhatsApp.
+   */
   email: 'maulanayusupp@gmail.com',
   /** Sales contact person surfaced in the UI. */
   contactName: 'Maulana Yusup Abdullah',
-  /** Human-readable phone (display). */
-  phone: '+62 878 2277 6333',
-  /** WhatsApp number in international format, digits only (for wa.me links). */
-  whatsapp: '6287822766333',
   /** City/region shown in contact + schema (i18n key holds the full address). */
   addressKey: 'contact.info.addressValue',
 } as const
 
 export const socialLinks: readonly SocialLink[] = [
-  { id: 'whatsapp', href: 'https://wa.me/6287822766333', icon: 'whatsapp' },
   { id: 'instagram', href: 'https://instagram.com', icon: 'instagram' },
   { id: 'youtube', href: 'https://youtube.com', icon: 'youtube' },
 ] as const

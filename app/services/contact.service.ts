@@ -1,6 +1,6 @@
 // =============================================================================
 // Contact service. Encapsulates lead submission so the form component stays
-// dumb. Today it routes the enquiry to WhatsApp (the primary sales channel);
+// dumb. Today it routes the enquiry to email (the only sales channel);
 // wire it to a real API/route later without touching the UI. Includes
 // lightweight, framework-agnostic validation returning i18n error KEYS.
 // =============================================================================
@@ -32,7 +32,7 @@ export const contactService = {
       return { ok: false, error: 'contact.errors.invalid' }
     }
     // Placeholder for a real network call ($fetch('/api/contact', ...)).
-    // The UI additionally offers a WhatsApp handoff for instant response.
+    // The UI additionally offers a prefilled email handoff for a direct reply.
     await new Promise((resolve) => setTimeout(resolve, 700))
     return { ok: true }
   },

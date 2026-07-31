@@ -3,7 +3,7 @@
     "tagline": "Curated Luxury Cars",
     "home": {
       "title": "Curated Luxury Cars, New & Pre-Owned",
-      "description": "AURUM is a curated showroom for new and pre-owned luxury cars. Every unit is hand-picked, inspected, and transparently listed. Talk to us directly on WhatsApp."
+      "description": "AURUM is a curated showroom for new and pre-owned luxury cars. Every unit is hand-picked, inspected, and transparently listed. Talk to us directly by email."
     },
     "inventory": {
       "title": "Inventory",
@@ -15,7 +15,7 @@
     },
     "contact": {
       "title": "Contact",
-      "description": "Reach the AURUM team via WhatsApp, phone or email. We reply quickly and personally."
+      "description": "Reach the AURUM team by email. We reply quickly and personally."
     },
     "compliance": {
       "title": "Trust & Compliance",
@@ -186,7 +186,7 @@
   "car": {
     "brandNew": "Brand new",
     "viewDetail": "View details",
-    "askWhatsApp": "Ask on WhatsApp",
+    "askEmail": "Ask by email",
     "backToInventory": "Back to inventory",
     "overview": "Overview",
     "specifications": "Specifications",
@@ -195,8 +195,7 @@
     "relatedTitle": "Related cars",
     "priceLabel": "Price",
     "priceNote": "Price is indicative and subject to final confirmation. Financing and trade-in can be arranged.",
-    "inquiryCta": "Enquire on WhatsApp",
-    "callCta": "Call the showroom",
+    "inquiryCta": "Enquire by email",
     "salesConsultant": "Sales Consultant",
     "assurance": {
       "inspected": "Multi-point inspected",
@@ -215,11 +214,13 @@
     }
   },
 
-  "whatsapp": {
+  "mail": {
     "generic": "Hello AURUM, I'd like to know more about the cars you have available.",
+    "subject": "Enquiry — AURUM",
     "carInquiry": "Hello AURUM, I'm interested in the %car% (%price%). Is it still available? %url%",
-    "fabLabel": "Chat on WhatsApp",
-    "fabText": "Chat with us"
+    "carSubject": "Enquiry: %car%",
+    "fabLabel": "Email us",
+    "fabText": "Email us"
   },
 
   "home": {
@@ -230,7 +231,7 @@
       "titleLine2": "— chosen with care.",
       "lead": "A curated showroom of luxury cars, each one hand-picked, inspected and transparently listed. No pressure, no guesswork — just an honest path to your next car.",
       "ctaPrimary": "Explore inventory",
-      "ctaSecondary": "Chat on WhatsApp",
+      "ctaSecondary": "Email us",
       "spotlight": "In the spotlight",
       "stat": {
         "units": "Curated units",
@@ -265,7 +266,7 @@
       },
       "concierge": {
         "title": "Personal concierge",
-        "body": "One point of contact on WhatsApp, from first question to final handover — and beyond."
+        "body": "One point of contact by email, from first question to final handover — and beyond."
       }
     },
     "process": {
@@ -278,7 +279,7 @@
       },
       "consult": {
         "title": "Consult",
-        "body": "Message us on WhatsApp with any question — we reply personally and quickly."
+        "body": "Email us with any question — we reply personally and quickly."
       },
       "inspect": {
         "title": "Inspect",
@@ -294,7 +295,7 @@
       "title": "Buyers who found the one",
       "items": {
         "t1": {
-          "quote": "The condition notes were spot-on and the whole process happened over WhatsApp in a single afternoon. Refreshingly honest.",
+          "quote": "The condition notes were spot-on and the whole process happened over email in a single afternoon. Refreshingly honest.",
           "name": "Andreas W.",
           "role": "911 Carrera buyer"
         },
@@ -314,7 +315,7 @@
       "eyebrow": "Ready when you are",
       "title": "Let's find your next car",
       "lead": "Tell us what you're looking for and we'll point you to the right unit — or source it for you.",
-      "primary": "Chat on WhatsApp",
+      "primary": "Email us",
       "secondary": "Contact the team"
     }
   },
@@ -357,7 +358,7 @@
       "title": "Our story",
       "p1": "AURUM began with a frustration shared by every enthusiast — that buying a special car is too often stressful, opaque and full of pressure. We wanted to do the opposite.",
       "p2": "So we built a showroom around curation and honesty. We hand-pick each car, inspect it independently, document it fully, and list it exactly as it is. If a car isn't good enough for us, it isn't good enough for you.",
-      "p3": "Everything runs through one personal point of contact on WhatsApp, so you always know who you're talking to. No queues, no scripts — just straight answers.",
+      "p3": "Everything runs through one personal point of contact by email, so you always know who you're talking to. No queues, no scripts — just straight answers.",
       "cta": "Talk to us"
     },
     "principles": {
@@ -369,12 +370,10 @@
   "contact": {
     "eyebrow": "Get in touch",
     "title": "We'd love to hear from you",
-    "lead": "Have a question about a car, or looking for something specific? Reach us on WhatsApp for the fastest reply, or send a message below.",
+    "lead": "Have a question about a car, or looking for something specific? Email us for a personal reply, or send a message below.",
     "formTitle": "Send us a message",
-    "formLead": "Fill in the form and we'll get back to you — or continue straight to WhatsApp.",
+    "formLead": "Fill in the form and we'll get back to you — or send it straight from your own email app.",
     "channels": {
-      "whatsapp": "WhatsApp (fastest)",
-      "phone": "Phone",
       "email": "Email",
       "address": "Showroom",
       "hours": "Opening hours"
@@ -393,13 +392,13 @@
       "message": "Message",
       "messagePlaceholder": "Tell us which car you're interested in, or what you're looking for…",
       "submit": "Send message",
-      "orWhatsApp": "Send via WhatsApp",
+      "orEmail": "Send via email",
       "privacyHint": "By sending, you agree to our privacy policy. We only use your details to reply to your enquiry.",
       "successTitle": "Message ready",
-      "successBody": "Thank you. For an instant reply, continue the conversation on WhatsApp — we usually respond within minutes during opening hours.",
-      "continueWhatsApp": "Continue on WhatsApp",
+      "successBody": "Thank you. For a direct reply, continue the conversation by email — we usually respond within a working day.",
+      "continueEmail": "Continue by email",
       "sendAnother": "Send another",
-      "whatsappTemplate": "Hello AURUM, my name is {name}. {message}"
+      "mailTemplate": "Hello AURUM, my name is {name}. {message}"
     },
     "errors": {
       "nameRequired": "Please enter your name.",
@@ -442,10 +441,10 @@
     },
     "disclaimer": {
       "title": "About this website",
-      "body": "AURUM is a demonstration showroom. The brand, the listed cars, prices, mileage and stock shown here are illustrative sample data for showcasing the website, not a live commercial offer. No purchase can be completed through this site — enquiries are handled personally via WhatsApp."
+      "body": "AURUM is a demonstration showroom. The brand, the listed cars, prices, mileage and stock shown here are illustrative sample data for showcasing the website, not a live commercial offer. No purchase can be completed through this site — enquiries are handled personally by email."
     },
     "help": "Have a question about how we work?",
-    "helpCta": "Ask us on WhatsApp"
+    "helpCta": "Email us"
   },
 
   "legal": {
@@ -461,7 +460,7 @@
       {
         "heading": "Who we are",
         "paragraphs": [
-          "AURUM is a demonstration showroom website. This policy describes how personal data would be handled when you contact us through the website or WhatsApp.",
+          "AURUM is a demonstration showroom website. This policy describes how personal data would be handled when you contact us through the website or by email.",
           "Because AURUM is a placeholder project, no live commercial data processing takes place beyond replying to messages you choose to send."
         ]
       },
@@ -469,7 +468,7 @@
         "heading": "Data we collect",
         "paragraphs": [
           "When you submit the contact form we collect the name, email and any phone number and message you provide.",
-          "When you contact us on WhatsApp, your message and phone number are visible to us through WhatsApp, subject to WhatsApp's own privacy terms.",
+          "When you email us, your message and the address you send it from are visible to us in our mailbox, subject to your own email provider's terms.",
           "We do not use advertising trackers. A cookie is used only to remember your language preference."
         ]
       },
@@ -517,7 +516,7 @@
       {
         "heading": "No online transactions",
         "paragraphs": [
-          "No sale or payment can be completed through this website. All enquiries are handled personally, primarily via WhatsApp, and any real transaction would be governed by a separate written agreement."
+          "No sale or payment can be completed through this website. All enquiries are handled personally by email, and any real transaction would be governed by a separate written agreement."
         ]
       },
       {
@@ -535,7 +534,7 @@
       {
         "heading": "External links",
         "paragraphs": [
-          "This website links to third-party services such as WhatsApp. We are not responsible for the content or privacy practices of external services."
+          "This website links to third-party services such as Instagram. We are not responsible for the content or privacy practices of external services."
         ]
       },
       {
@@ -548,7 +547,7 @@
   },
 
   "footer": {
-    "blurb": "A curated showroom for new and pre-owned luxury cars — hand-picked, inspected, and transparently listed. Enquiries handled personally on WhatsApp.",
+    "blurb": "A curated showroom for new and pre-owned luxury cars — hand-picked, inspected, and transparently listed. Enquiries handled personally by email.",
     "explore": "Explore",
     "legal": "Legal",
     "contact": "Contact",

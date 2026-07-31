@@ -1,11 +1,11 @@
 <script setup lang="ts">
 // Full-width closing call-to-action band with a gold-glow backdrop, driving to
-// WhatsApp (primary) and the contact page (secondary).
-import { whatsappLink } from '~/services/whatsapp.service'
+// email (primary) and the contact page (secondary).
+import { mailLink } from '~/services/mail.service'
 
 const { t } = useI18n()
 const localePath = useLocalePath()
-const waLink = computed(() => whatsappLink(t('whatsapp.generic')))
+const mailHref = computed(() => mailLink(t('mail.generic'), t('mail.subject')))
 </script>
 
 <template>
@@ -18,7 +18,7 @@ const waLink = computed(() => whatsappLink(t('whatsapp.generic')))
           <h2 class="cta__title">{{ t('home.cta.title') }}</h2>
           <p class="cta__lead u-lead">{{ t('home.cta.lead') }}</p>
           <div class="cta__actions">
-            <BaseButton :href="waLink" target="_blank" variant="primary" size="lg" icon-left="whatsapp">
+            <BaseButton :href="mailHref" variant="primary" size="lg" icon-left="mail">
               {{ t('home.cta.primary') }}
             </BaseButton>
             <BaseButton :to="localePath('/contact')" variant="secondary" size="lg" icon-right="arrow-right">

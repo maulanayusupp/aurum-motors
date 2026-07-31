@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // Default layout: skip link, sticky header, page slot, footer, and the
-// floating WhatsApp action that is present on every page.
+// floating email action that is present on every page.
 const { t } = useI18n()
 </script>
 
@@ -11,7 +11,7 @@ const { t } = useI18n()
     <slot />
   </main>
   <AppFooter />
-  <WhatsAppFab />
+  <ContactFab />
 </template>
 
 <style scoped lang="scss">

@@ -51,7 +51,7 @@ export default defineNuxtConfig({
     url: siteUrl,
     name: 'AURUM Motorworks',
     description:
-      'AURUM — bursa mobil mewah baru & bekas pilihan. Setiap unit terkurasi, terperiksa, dan transparan. Konsultasi langsung via WhatsApp.',
+      'AURUM — bursa mobil mewah baru & bekas pilihan. Setiap unit terkurasi, terperiksa, dan transparan. Konsultasi langsung via email.',
     defaultLocale: 'id',
   },
 
@@ -83,7 +83,6 @@ export default defineNuxtConfig({
     public: {
       siteUrl,
       contactEmail: process.env.NUXT_PUBLIC_CONTACT_EMAIL || 'maulanayusupp@gmail.com',
-      whatsapp: process.env.NUXT_PUBLIC_WHATSAPP || '6287822766333',
     },
   },
 

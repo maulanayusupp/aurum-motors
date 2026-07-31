@@ -6,7 +6,7 @@
 import { useCurrency } from '~/composables/useCurrency'
 import { useTilt } from '~/composables/useTilt'
 import { inventoryService } from '~/services/inventory.service'
-import { whatsappLink } from '~/services/whatsapp.service'
+import { mailLink } from '~/services/mail.service'
 
 const { t } = useI18n()
 const localePath = useLocalePath()
@@ -18,7 +18,7 @@ const spotlight = inventoryService.getFeatured(1)[0]
 const spotlightPath = computed(() =>
   spotlight ? localePath(`/inventory/${spotlight.slug}`) : localePath('/inventory'),
 )
-const waLink = computed(() => whatsappLink(t('whatsapp.generic')))
+const mailHref = computed(() => mailLink(t('mail.generic'), t('mail.subject')))
 </script>
 
 <template>
@@ -37,7 +37,7 @@ const waLink = computed(() => whatsappLink(t('whatsapp.generic')))
           <BaseButton :to="localePath('/inventory')" variant="primary" size="lg" icon-right="arrow-right">
             {{ t('home.hero.ctaPrimary') }}
           </BaseButton>
-          <BaseButton :href="waLink" target="_blank" variant="gold-outline" size="lg" icon-left="whatsapp">
+          <BaseButton :href="mailHref" variant="gold-outline" size="lg" icon-left="mail">
             {{ t('home.hero.ctaSecondary') }}
           </BaseButton>
         </div>

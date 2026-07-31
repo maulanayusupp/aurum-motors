@@ -3,7 +3,6 @@
 // socials, and a placeholder/disclaimer line. All copy via i18n.
 import { brandConfig } from '~/config/brand.config'
 import { contentService } from '~/services/content.service'
-import { whatsappBaseLink } from '~/services/whatsapp.service'
 
 const { t } = useI18n()
 const localePath = useLocalePath()
@@ -63,9 +62,6 @@ const currentYear = 2026
 
       <div class="footer__col">
         <h4 class="footer__heading">{{ t('footer.contact') }}</h4>
-        <a :href="whatsappBaseLink()" target="_blank" rel="noopener noreferrer" class="footer__contact">
-          <BaseIcon name="whatsapp" :size="17" /> {{ brandConfig.phone }}
-        </a>
         <a :href="`mailto:${brandConfig.email}`" class="footer__contact">
           <BaseIcon name="mail" :size="17" /> {{ brandConfig.email }}
         </a>

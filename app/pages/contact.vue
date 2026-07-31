@@ -1,31 +1,11 @@
 <script setup lang="ts">
-// Contact page: quick-contact channels (WhatsApp primary) + the enquiry form.
+// Contact page: quick-contact channels (email only) + the enquiry form.
 import { usePageSeo } from '~/composables/usePageSeo'
 import { brandConfig } from '~/config/brand.config'
-import { whatsappLink } from '~/services/whatsapp.service'
 
 const { t } = useI18n()
-const waLink = computed(() => whatsappLink(t('whatsapp.generic')))
 
 const channels = computed(() => [
-  {
-    id: 'whatsapp',
-    icon: 'whatsapp',
-    label: t('contact.channels.whatsapp'),
-    value: brandConfig.phone,
-    href: waLink.value,
-    external: true,
-    accent: true,
-  },
-  {
-    id: 'phone',
-    icon: 'phone',
-    label: t('contact.channels.phone'),
-    value: brandConfig.phone,
-    href: `tel:+${brandConfig.whatsapp}`,
-    external: false,
-    accent: false,
-  },
   {
     id: 'email',
     icon: 'mail',
@@ -33,7 +13,7 @@ const channels = computed(() => [
     value: brandConfig.email,
     href: `mailto:${brandConfig.email}`,
     external: false,
-    accent: false,
+    accent: true,
   },
 ])
 

@@ -3,12 +3,12 @@
 // demonstration showroom. Copy in i18n; principles reuse the value props.
 import { usePageSeo } from '~/composables/usePageSeo'
 import { contentService } from '~/services/content.service'
-import { whatsappLink } from '~/services/whatsapp.service'
+import { mailLink } from '~/services/mail.service'
 
 const { t } = useI18n()
 const localePath = useLocalePath()
 const principles = contentService.getValueProps()
-const waLink = computed(() => whatsappLink(t('whatsapp.generic')))
+const mailHref = computed(() => mailLink(t('mail.generic'), t('mail.subject')))
 
 usePageSeo(
   () => t('meta.about.title'),
@@ -41,7 +41,7 @@ usePageSeo(
         <div class="story__text">
           <h2 class="story__title">{{ t('about.story.title') }}</h2>
           <p v-for="i in 3" :key="i" class="story__p">{{ t(`about.story.p${i}`) }}</p>
-          <BaseButton :href="waLink" target="_blank" variant="gold-outline" icon-left="whatsapp">
+          <BaseButton :href="mailHref" variant="gold-outline" icon-left="mail">
             {{ t('about.story.cta') }}
           </BaseButton>
         </div>
